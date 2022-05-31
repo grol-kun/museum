@@ -1,0 +1,30 @@
+.header {
+    border: 1px solid red;
+    margin: 0;
+}
+.main {
+    border: 1px solid red;
+    margin: 0;
+}
+.footer {
+    border: 1px solid red;
+    margin: 0;
+}
+.section{
+padding: 75px, 0, 75px, 0;
+}
+.dark-section {
+background-color: #4a148c;
+}
+.video-section {
+padding-top: 90px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
