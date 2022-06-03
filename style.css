@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -13,12 +13,12 @@ a {
   border: 1px solid red;
   background-color: #000000;
 }
-.main {
+/* .main {
   border: 1px solid red;
 }
 .footer {
   border: 1px solid red;
-}
+} */
 .section {
   padding: 75px, 0, 75px, 0;
 }
@@ -37,7 +37,7 @@ a {
 .container {
   margin: 0 auto;
   max-width: 1440px;
-  border: solid blue 1px;
+  /* border: solid blue 1px; */
 }
 .header__container {
   display: flex;
@@ -101,9 +101,8 @@ a {
   align-items: center;
   justify-content: space-between;
   margin: 0;
-
 }
-.header__anchor{
+.header__anchor {
   display: block;
   padding: 0, 10px;
   height: 100%;
@@ -111,7 +110,7 @@ a {
 
 .section-welcome__background {
   background-image: url("assets/img/background.jpg");
-/*   background-origin: border-box;
+  /*   background-origin: border-box;
 background-repeat: no-repeat;
   background-position: 100% 100%; */
   width: 75.938rem;
@@ -133,11 +132,11 @@ background-repeat: no-repeat;
   font-weight: 400;
   text-transform: uppercase;
 }
+
 .section-welcome__text {
   position: absolute;
   top: 25%;
   padding-top: 12.5rem;
-
 }
 .section-welcome__button {
   font-weight: 100;
@@ -161,4 +160,28 @@ background-repeat: no-repeat;
   font-size: 1.75rem;
   font-weight: 300;
   margin-bottom: 4.75rem;
+}
+.section-visiting__title-box {
+  margin-top: 4.688rem;
+}
+.section-visiting__underline-title {
+  color: #9d8665;
+  position: relative;
+}
+.section-visiting__underline-title::after {
+  content: "";
+  position: absolute;
+  bottom: -1.563rem;
+  left: 0;
+  width: 100%;
+  /*  
+  тоже самое
+  left: 0;
+  right: 0; */
+  height: 0.188rem;
+  background-color: #710707;
+}
+.section-visiting__card-box {
+  max-width: 1440px;
+  display: flex;
 }
