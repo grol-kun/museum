@@ -1,47 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets/favicon.ico" />
-    <title>museum</title>
-  </head>
-  <body>
-    <div class="page">
-      <header class="header">
-        <div class="container header__container"></div>
-      </header>
-      <main class="main">
-        <section class="section main__section">
-            <div class="container main__container"></div>
-        </section>
-        <section class="section main__section">
-            <div class="container main__container"></div>
-        </section>
-        <section class="section main__section">
-            <div class="container main__container"></div>
-        </section>
-        <section class="section main__section">
-            <div class="container main__container"></div>
-        </section>
-        <section class="section main__section">
-            <div class="container main__container"></div>
-        </section>
-        <section class="section main__section">
-            <div class="container main__container"></div>
-        </section>
-      </main>
-      <footer class="footer">
-        <div class="container footer__container"></div>
-      </footer>
-    </div>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100;300;400&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.ico" />
+  <title>museum</title>
+</head>
+
+<body>
+  <div class="page">
+    <header class="header page__header dark-section">
+      <div class="container header__container">
+        <div class="header__logo">
+          <div class="header__logo_img"></div>
+          <div class="header__logo_text font-forum uppercase light-text">
+            Louvre
+          </div>
+        </div>
+        <nav class="header__navigation font-roboto light-text">
+          <ul class="header__ul">
+            <li class="header__li"><a href="#visiting" class="interactive header__anchor">Visiting</a></li>
+            <li class="header__li"><a href="#explore" class="interactive header__anchor">Explore</a></li>
+            <li class="header__li"><a href="#video" class="interactive header__anchor">Video</a></li>
+            <li class="header__li"><a href="#tickets" class="interactive header__anchor">Tickets</a></li>
+            <li class="header__li"><a href="#contacts" class="interactive header__anchor">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main page__main">
+      <section class="section main__section main__section_welcome dark-section">
+        <div class="container section-welcome__container">
+          <div class="section-welcome__text">
+            <h2 class="section-title section-welcome__title">
+              Welcome
+            </h2>
+            <h2 class="section-title section-welcome__title">
+              to the Louvre
+            </h2>
+            <p class="section-welcome__p font-roboto">From the castle to the museum</p>
+            <div class="section-welcome__button font-roboto">
+              <a href="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,123.68h,80.87t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736"
+                class="section-welcome__href" target="_blank">Discover the Louvre</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="section-welcome__background"></div>
+      </section>
+      <section class="section main__section main__section_visiting" id="visiting">
+        <div class="container main__container"></div>
+      </section>
+      <section class="section main__section main__section_explore" id="explore">
+        <div class="container main__container"></div>
+      </section>
+      <section class="section main__section main__section_video" id="video">
+        <div class="container main__container"></div>
+      </section>
+      <section class="section main__section main__section_tickets" id="tickets">
+        <div class="container main__container"></div>
+      </section>
+      <section class="section main__section main__section_contacts" id="contacts">
+        <div class="container main__container"></div>
+      </section>
+    </main>
+    <footer class="footer page__footer">
+      <div class="container footer__container"></div>
+    </footer>
+  </div>
+</body>
+
 </html>
