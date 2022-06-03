@@ -1,0 +1,82 @@
+$font-forum: Forum, cursive;
+$font-roboto: Roboto, sans-serif;
+
+$color-bg-dark: #030303;
+$color-white: #ffffff;
+$color-dark-red: #710707;
+$color-font-gold: #9D8665;
+
+
+//------------FONTS--------
+%regular-32 {
+  font-family: $font-roboto;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.344rem;
+  letter-spacing: 5%;
+}
+
+%regular-22 {
+  @extend %regular-32;
+  font-size: 1.375rem;
+  font-weight: 100;
+  line-height: 1.625rem;
+  font-style: normal;
+}
+
+%forum-32 {
+  font-family: "Forum", cursive;
+  font-size: 2rem;
+  font-style: normal;
+  letter-spacing: 0.313rem;
+  font-weight: 400;
+  &:hover{
+    color: #9D8665;
+  }
+}
+
+%uppercase {
+  text-transform: uppercase;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.font-forum {
+  font-family: "Forum", cursive;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+.font-roboto {
+  font-family: $font-roboto;
+  /* line-height: 100%; */
+}
+
+.light-text {
+  color: $color-white;
+}
+
+.section-title {
+  font-size: 300%;
+  margin: 0;
+  font-family: $font-forum;
+  font-style: normal;
+  line-height: 112%;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.dark-section {
+  background: $color-bg-dark;
+  color: $color-white;
+}
+
+.interactive:hover {
+  cursor: pointer;
+  color: $color-font-gold;
+  transition: 1s;
+}
