@@ -1,15 +1,20 @@
 @import 'mixin';
 
+.section_visiting {
+  padding: $standard-padding;
+}
+
 .section-visiting__container {
 
   .section-visiting__title-box {
-    padding-top: 4.688rem;
     padding-bottom: 6.438rem;
 
     .section-visiting__underlined-title {
       @extend %section-title;
       color: $color-font-gold;
       position: relative;
+      
+      
 
       &::after {
         @include tmp-underline(-1.563rem, 100%, 0.188rem);
@@ -37,7 +42,6 @@
       }
 
       .txt {
-
         position: relative;
 
         h3 {
@@ -46,6 +50,7 @@
           color: black;
           padding-top: 1.563rem;
           padding-bottom: 1.313rem;
+          @extend %interactive;
 
           &::after {
             @include tmp-underline(5.1rem, 70%, 0.125rem);
@@ -56,6 +61,7 @@
           color: black;
           @extend %regular-22;
           padding-bottom: 0.625rem;
+          @extend %interactive;
 
         }
       }

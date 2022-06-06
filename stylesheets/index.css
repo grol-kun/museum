@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p, .section_explore__container .section_explore__text-block .section_explore__p {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -16,7 +16,7 @@
   font-weight: 300;
 }
 
-.header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p, .section_explore__container .section_explore__text-block .section_explore__p {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
@@ -40,8 +40,8 @@
   text-transform: uppercase;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title {
-  font-size: 300%;
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title {
+  font-size: 5rem;
   margin: 0;
   font-family: Forum, cursive;
   font-style: normal;
@@ -51,12 +51,12 @@
   text-transform: uppercase;
 }
 
-.header, .section-welcome {
+.header, .section-welcome, .section_explore {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation .header__anchor:hover {
+.header .header__container .header__navigation .header__anchor:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -139,7 +139,7 @@
   text-decoration: none;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p, .section_explore__container .section_explore__text-block .section_explore__p {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -152,7 +152,7 @@
   font-weight: 300;
 }
 
-.header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p, .section_explore__container .section_explore__text-block .section_explore__p {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
@@ -176,8 +176,8 @@
   text-transform: uppercase;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title {
-  font-size: 300%;
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title {
+  font-size: 5rem;
   margin: 0;
   font-family: Forum, cursive;
   font-style: normal;
@@ -187,12 +187,12 @@
   text-transform: uppercase;
 }
 
-.header, .section-welcome {
+.header, .section-welcome, .section_explore {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation .header__anchor:hover {
+.header .header__container .header__navigation .header__anchor:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -200,6 +200,7 @@
 }
 
 .section-welcome {
+  padding: 4.688rem 0 0 0;
   width: 100%;
 }
 
@@ -268,7 +269,7 @@
   width: 100%;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p, .section_explore__container .section_explore__text-block .section_explore__p {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -281,7 +282,7 @@
   font-weight: 300;
 }
 
-.header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p, .section_explore__container .section_explore__text-block .section_explore__p {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
@@ -305,8 +306,8 @@
   text-transform: uppercase;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title {
-  font-size: 300%;
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title {
+  font-size: 5rem;
   margin: 0;
   font-family: Forum, cursive;
   font-style: normal;
@@ -316,20 +317,23 @@
   text-transform: uppercase;
 }
 
-.header, .section-welcome {
+.header, .section-welcome, .section_explore {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation .header__anchor:hover {
+.header .header__container .header__navigation .header__anchor:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
+.section_visiting {
+  padding: 4.688rem 0;
+}
+
 .section-visiting__container .section-visiting__title-box {
-  padding-top: 4.688rem;
   padding-bottom: 6.438rem;
 }
 
@@ -398,7 +402,7 @@
   padding-bottom: 0.625rem;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p, .section_explore__container .section_explore__text-block .section_explore__p {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -411,7 +415,7 @@
   font-weight: 300;
 }
 
-.header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p, .section_explore__container .section_explore__text-block .section_explore__p {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
@@ -435,8 +439,8 @@
   text-transform: uppercase;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title {
-  font-size: 300%;
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title {
+  font-size: 5rem;
   margin: 0;
   font-family: Forum, cursive;
   font-style: normal;
@@ -446,16 +450,190 @@
   text-transform: uppercase;
 }
 
-.header, .section-welcome {
+.header, .section-welcome, .section_explore {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation .header__anchor:hover {
+.header .header__container .header__navigation .header__anchor:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p, .section_explore__container .section_explore__text-block .section_explore__p {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.344rem;
+  letter-spacing: 5%;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+.header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p, .section_explore__container .section_explore__text-block .section_explore__p {
+  font-size: 1.375rem;
+  font-weight: 100;
+  line-height: 1.625rem;
+  font-style: normal;
+}
+
+.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3, .header .header__container .header__logo_text {
+  font-family: "Forum", cursive;
+  font-size: 1.75rem;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+  font-size: 2rem;
+  letter-spacing: 0.313rem;
+}
+
+.header .header__container .header__logo_text, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+  text-transform: uppercase;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title {
+  font-size: 5rem;
+  margin: 0;
+  font-family: Forum, cursive;
+  font-style: normal;
+  line-height: 112%;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.header, .section-welcome, .section_explore {
+  background: #030303;
+  color: #ffffff;
+}
+
+.header .header__container .header__navigation .header__anchor:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p:hover {
+  cursor: pointer;
+  color: #9D8665;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section_explore {
+  padding: 4.688rem 0;
+  width: 100%;
+}
+
+.section_explore__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section_explore__container .section_explore__text-block .section_explore__title {
+  position: relative;
+  padding-bottom: 6.438rem;
+  line-height: 112%;
+  letter-spacing: 0.313rem;
+}
+
+.section_explore__container .section_explore__text-block .section_explore__title::after {
+  content: "";
+  position: absolute;
+  bottom: 4.4rem;
+  left: 0;
+  width: 100%;
+  height: 0.188rem;
+  background-color: #710707;
+}
+
+.section_explore__container .section_explore__text-block .section_explore__p {
+  padding-bottom: 1.563rem;
+  line-height: 175%;
+  max-width: 660px;
+}
+
+.section_explore__container .section_explore__text-block .section_explore__p span {
+  color: #9D8665;
+}
+
+.section_explore__container .section_explore__picture img {
+  width: 100%;
+  height: 100%;
+  max-width: 720px;
+  max-height: 700px;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p, .section_explore__container .section_explore__text-block .section_explore__p {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.344rem;
+  letter-spacing: 5%;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+.header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p, .section_explore__container .section_explore__text-block .section_explore__p {
+  font-size: 1.375rem;
+  font-weight: 100;
+  line-height: 1.625rem;
+  font-style: normal;
+}
+
+.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3, .header .header__container .header__logo_text {
+  font-family: "Forum", cursive;
+  font-size: 1.75rem;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+  font-size: 2rem;
+  letter-spacing: 0.313rem;
+}
+
+.header .header__container .header__logo_text, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+  text-transform: uppercase;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title {
+  font-size: 5rem;
+  margin: 0;
+  font-family: Forum, cursive;
+  font-style: normal;
+  line-height: 112%;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.header, .section-welcome, .section_explore {
+  background: #030303;
+  color: #ffffff;
+}
+
+.header .header__container .header__navigation .header__anchor:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p:hover {
+  cursor: pointer;
+  color: #9D8665;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section_video {
+  padding: 5.625rem 0 4.688rem 0;
 }
 
 html {
@@ -477,14 +655,6 @@ a {
 
 .main {
   border: 1px solid red;
-}
-
-.section {
-  padding: 75px, 0, 75px, 0;
-}
-
-.main__section_theme_video {
-  padding-top: 90px;
 }
 
 .container {
