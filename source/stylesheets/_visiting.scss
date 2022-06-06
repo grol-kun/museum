@@ -13,8 +13,6 @@
       @extend %section-title;
       color: $color-font-gold;
       position: relative;
-      
-      
 
       &::after {
         @include tmp-underline(-1.563rem, 100%, 0.188rem);
@@ -34,38 +32,37 @@
 
       a {
         display: block;
-      }
 
-      img {
-        width: 27.5rem;
-        height: 17.813rem;
-      }
+        img {
+          width: 27.5rem;
+          height: 17.813rem;
+        }
 
-      .txt {
-        position: relative;
+        .txt {
+          position: relative;
 
-        h3 {
-          @extend %forum-32;
-          @extend %uppercase;
-          color: black;
-          padding-top: 1.563rem;
-          padding-bottom: 1.313rem;
-          @extend %interactive;
+          h3 {
+            @extend %forum-32;
+            @extend %uppercase;
+            color: black;
+            padding-top: 1.563rem;
+            padding-bottom: 1.313rem;
+            @extend %interactive;
 
-          &::after {
-            @include tmp-underline(5.1rem, 70%, 0.125rem);
+            &::after {
+              @include tmp-underline(5.1rem, 70%, 0.125rem);
+            }
+          }
+
+          p {
+            color: black;
+            @extend %regular-22;
+            padding-bottom: 0.625rem;
+            @extend %interactive;
+
           }
         }
-
-        p {
-          color: black;
-          @extend %regular-22;
-          padding-bottom: 0.625rem;
-          @extend %interactive;
-
-        }
       }
-
     }
   }
 }
