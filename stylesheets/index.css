@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -11,50 +11,36 @@
   letter-spacing: 5%;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+.header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3, .header .header__container .header__logo_text {
   font-family: "Forum", cursive;
-  font-size: 2rem;
-  font-style: normal;
-  letter-spacing: 0.313rem;
-  font-weight: 400;
-}
-
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3:hover {
-  color: #9D8665;
-}
-
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
-  text-transform: uppercase;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.font-forum {
-  font-family: "Forum", cursive;
+  font-size: 1.75rem;
   font-style: normal;
   letter-spacing: 0.05em;
   font-weight: 400;
 }
 
-.font-roboto {
-  font-family: Roboto, sans-serif;
-  /* line-height: 100%; */
+.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+  font-size: 2rem;
+  letter-spacing: 0.313rem;
 }
 
-.light-text {
-  color: #ffffff;
+.header .header__container .header__logo_text, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+  text-transform: uppercase;
 }
 
-.section-title {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title {
   font-size: 300%;
   margin: 0;
   font-family: Forum, cursive;
@@ -65,12 +51,12 @@
   text-transform: uppercase;
 }
 
-.dark-section {
+.header, .section-welcome {
   background: #030303;
   color: #ffffff;
 }
 
-.interactive:hover {
+.header .header__container .header__navigation .header__anchor:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -78,7 +64,7 @@
 }
 
 .header {
-  border: 1px solid red;
+  width: 100%;
 }
 
 .header .header__container {
@@ -101,6 +87,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header .header__container .header__logo:hover {
@@ -111,26 +100,24 @@
   transition: 1s;
 }
 
-.header .header__container .header__logo .header__logo_img {
+.header .header__container .header__logo_img {
   background-image: url("/assets/svg/logo.svg");
   width: 49px;
   height: 26px;
 }
 
-.header .header__container .header__logo .header__logo_text {
-  font-size: 1.75rem;
+.header .header__container .header__logo_text {
   margin-left: 1.313rem;
+  line-height: 3.125rem;
 }
 
 .header .header__container .header__navigation {
   max-width: 720px;
   width: 100%;
-  font-weight: 100;
-  font-size: 1.375rem;
-  line-height: 3.125rem;
 }
 
 .header .header__container .header__navigation ul {
+  line-height: 3.125rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -146,13 +133,13 @@
   display: inline-block;
 }
 
-.header .header__container .header__navigation a {
+.header .header__container .header__navigation .header__anchor {
   display: block;
   padding: 6px 12px;
   text-decoration: none;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -160,50 +147,36 @@
   letter-spacing: 5%;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+.header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3, .header .header__container .header__logo_text {
   font-family: "Forum", cursive;
-  font-size: 2rem;
-  font-style: normal;
-  letter-spacing: 0.313rem;
-  font-weight: 400;
-}
-
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3:hover {
-  color: #9D8665;
-}
-
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
-  text-transform: uppercase;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.font-forum {
-  font-family: "Forum", cursive;
+  font-size: 1.75rem;
   font-style: normal;
   letter-spacing: 0.05em;
   font-weight: 400;
 }
 
-.font-roboto {
-  font-family: Roboto, sans-serif;
-  /* line-height: 100%; */
+.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+  font-size: 2rem;
+  letter-spacing: 0.313rem;
 }
 
-.light-text {
-  color: #ffffff;
+.header .header__container .header__logo_text, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+  text-transform: uppercase;
 }
 
-.section-title {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title {
   font-size: 300%;
   margin: 0;
   font-family: Forum, cursive;
@@ -214,19 +187,23 @@
   text-transform: uppercase;
 }
 
-.dark-section {
+.header, .section-welcome {
   background: #030303;
   color: #ffffff;
 }
 
-.interactive:hover {
+.header .header__container .header__navigation .header__anchor:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-.main__section_welcome .section-welcome__background-box {
+.section-welcome {
+  width: 100%;
+}
+
+.section-welcome__background-box {
   max-width: 1920px;
   margin: auto;
   display: -webkit-box;
@@ -239,32 +216,36 @@
           justify-content: flex-end;
 }
 
-.main__section_welcome .section-welcome__background-box .section-welcome__background {
+.section-welcome__background-box .section-welcome__background {
   background-image: url("/assets/img/background.jpg");
   background-position: calc(100%), calc(100%);
-  width: calc(84vw);
+  width: calc(1215/750*100%);
   height: calc(64vw);
   background-repeat: no-repeat;
   background-size: contain;
-  max-width: 1920px;
   max-height: 750px;
+  max-width: 1215px;
   -moz-background-size: cover;
 }
 
-.main__section_welcome .section-welcome__background-box .section-welcome__container {
+.section-welcome__background-box .section-welcome__container {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.main__section_welcome .section-welcome__background-box .section-welcome__container .section-welcome__text {
+.section-welcome__background-box .section-welcome__container .section-welcome__text {
   position: absolute;
   padding-top: 10%;
 }
 
-.main__section_welcome .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button {
-  font-weight: 100;
-  font-size: 1.375rem;
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p {
+  line-height: 2.063rem;
+  margin-top: 1.625rem;
+  margin-bottom: 4.75rem;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button {
   background: #710707;
   border-radius: 10px;
   display: -webkit-box;
@@ -276,25 +257,18 @@
   height: 4.688rem;
 }
 
-.main__section_welcome .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button a {
-  line-height: 4.688rem;
-  width: 100%;
-}
-
-.main__section_welcome .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button:hover {
-  background: #9d8665;
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button:hover {
+  background: #9D8665;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-.main__section_welcome .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p {
-  margin-top: 1.625rem;
-  font-size: 1.75rem;
-  font-weight: 300;
-  margin-bottom: 4.75rem;
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button a {
+  line-height: 4.688rem;
+  width: 100%;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -302,50 +276,36 @@
   letter-spacing: 5%;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+.header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3, .header .header__container .header__logo_text {
   font-family: "Forum", cursive;
-  font-size: 2rem;
-  font-style: normal;
-  letter-spacing: 0.313rem;
-  font-weight: 400;
-}
-
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3:hover {
-  color: #9D8665;
-}
-
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
-  text-transform: uppercase;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.font-forum {
-  font-family: "Forum", cursive;
+  font-size: 1.75rem;
   font-style: normal;
   letter-spacing: 0.05em;
   font-weight: 400;
 }
 
-.font-roboto {
-  font-family: Roboto, sans-serif;
-  /* line-height: 100%; */
+.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+  font-size: 2rem;
+  letter-spacing: 0.313rem;
 }
 
-.light-text {
-  color: #ffffff;
+.header .header__container .header__logo_text, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+  text-transform: uppercase;
 }
 
-.section-title {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title {
   font-size: 300%;
   margin: 0;
   font-family: Forum, cursive;
@@ -356,26 +316,16 @@
   text-transform: uppercase;
 }
 
-.dark-section {
+.header, .section-welcome {
   background: #030303;
   color: #ffffff;
 }
 
-.interactive:hover {
+.header .header__container .header__navigation .header__anchor:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
   transition: 1s;
-}
-
-.section-visiting__container .section-visiting__title-box .section-visiting__underline-title::after, .section-visiting__container .section-visiting__card-box .section-visiting__card a::after {
-  content: "";
-  position: absolute;
-  bottom: -1.563rem;
-  left: 0;
-  width: 100%;
-  height: 0.188rem;
-  background-color: #710707;
 }
 
 .section-visiting__container .section-visiting__title-box {
@@ -383,9 +333,19 @@
   padding-bottom: 6.438rem;
 }
 
-.section-visiting__container .section-visiting__title-box .section-visiting__underline-title {
+.section-visiting__container .section-visiting__title-box .section-visiting__underlined-title {
   color: #9D8665;
   position: relative;
+}
+
+.section-visiting__container .section-visiting__title-box .section-visiting__underlined-title::after {
+  content: "";
+  position: absolute;
+  bottom: -1.563rem;
+  left: 0;
+  width: 100%;
+  height: 0.188rem;
+  background-color: #710707;
 }
 
 .section-visiting__container .section-visiting__card-box {
@@ -401,18 +361,11 @@
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 13.438rem 3.75rem;
+  gap: 4.813rem 3.75rem;
 }
 
 .section-visiting__container .section-visiting__card-box .section-visiting__card a {
   display: block;
-  width: 27.5rem;
-  height: 17.813rem;
-  position: relative;
-}
-
-.section-visiting__container .section-visiting__card-box .section-visiting__card a::after {
-  bottom: -4.313rem;
 }
 
 .section-visiting__container .section-visiting__card-box .section-visiting__card img {
@@ -421,18 +374,31 @@
 }
 
 .section-visiting__container .section-visiting__card-box .section-visiting__card .txt {
-  position: absolute;
+  position: relative;
 }
 
 .section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+  color: black;
   padding-top: 1.563rem;
+  padding-bottom: 1.313rem;
+}
+
+.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3::after {
+  content: "";
+  position: absolute;
+  bottom: 5.1rem;
+  left: 0;
+  width: 70%;
+  height: 0.125rem;
+  background-color: #710707;
 }
 
 .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
-  padding-top: 0.625rem;
+  color: black;
+  padding-bottom: 0.625rem;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -440,50 +406,36 @@
   letter-spacing: 5%;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+.header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt p {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3, .header .header__container .header__logo_text {
   font-family: "Forum", cursive;
-  font-size: 2rem;
-  font-style: normal;
-  letter-spacing: 0.313rem;
-  font-weight: 400;
-}
-
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3:hover {
-  color: #9D8665;
-}
-
-.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
-  text-transform: uppercase;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.font-forum {
-  font-family: "Forum", cursive;
+  font-size: 1.75rem;
   font-style: normal;
   letter-spacing: 0.05em;
   font-weight: 400;
 }
 
-.font-roboto {
-  font-family: Roboto, sans-serif;
-  /* line-height: 100%; */
+.section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+  font-size: 2rem;
+  letter-spacing: 0.313rem;
 }
 
-.light-text {
-  color: #ffffff;
+.header .header__container .header__logo_text, .section-visiting__container .section-visiting__card-box .section-visiting__card .txt h3 {
+  text-transform: uppercase;
 }
 
-.section-title {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title {
   font-size: 300%;
   margin: 0;
   font-family: Forum, cursive;
@@ -494,12 +446,12 @@
   text-transform: uppercase;
 }
 
-.dark-section {
+.header, .section-welcome {
   background: #030303;
   color: #ffffff;
 }
 
-.interactive:hover {
+.header .header__container .header__navigation .header__anchor:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;

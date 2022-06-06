@@ -1,7 +1,11 @@
 @import 'mixin';
 
-.main__section_welcome {
-  .section-welcome__background-box {
+
+.section-welcome {
+  @extend %dark-section;
+  width: 100%;
+
+  &__background-box {
     max-width: 1920px; //1920px 120rem
     margin: auto;
     display: flex;
@@ -11,12 +15,13 @@
     .section-welcome__background {
       background-image: url("/assets/img/background.jpg");
       background-position: calc(100%), calc(100%);
-      width: calc(84vw);
+      width: calc(1215/750*100%); ; 
       height: calc(64vw);
       background-repeat: no-repeat;
       background-size: contain;
-      max-width: 1920px;
       max-height: 750px;
+      max-width: 1215px;
+
       -moz-background-size: cover; // Firefox 3.6
     }
 
@@ -29,10 +34,20 @@
         position: absolute;
         padding-top: 10%;
 
+        .section-welcome__title {
+          @extend %section-title;
+        }
+
+        .section-welcome__p {
+          @extend %regular-28;
+          line-height: 2.063rem;
+          margin-top: 1.625rem;
+          margin-bottom: 4.75rem;
+        }
+
         .section-welcome__button {
-          font-weight: 100;
-          font-size: 1.375rem;
-          background: #710707;
+          @extend %regular-22;
+          background: $color-dark-red;
           border-radius: 10px;
           display: flex;
           text-align: center;
@@ -40,22 +55,15 @@
           width: 22.5rem;
           height: 4.688rem;
 
+          &:hover {
+            background: $color-font-gold;
+            transition: 1s;
+          }
+
           a {
             line-height: 4.688rem;
             width: 100%;
           }
-        }
-
-        .section-welcome__button:hover {
-          background: #9d8665;
-          transition: 1s;
-        }
-
-        .section-welcome__p {
-          margin-top: 1.625rem;
-          font-size: 1.75rem;
-          font-weight: 300;
-          margin-bottom: 4.75rem;
         }
 
       }
