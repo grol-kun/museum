@@ -76,3 +76,78 @@
   height: $height;
   background-color: $color-dark-red;
 }
+
+%tmp_radio_btn {
+  .section_tickets__container {
+    @extend %regular-22;
+    font-weight: 100;
+
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    .section_tickets__p {
+
+    }
+  }
+
+  /* Hide the browser's default radio button */
+  .section_tickets__container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Create a custom radio button */
+  .section_tickets__checkmark {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0.25rem;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    background-color: #eee;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .section_tickets__container:hover input~.section_tickets__checkmark {
+    background-color: rgb(134, 130, 130);
+  }
+
+  /* When the radio button is checked, add a blue background */
+  .section_tickets__container input:checked~.section_tickets__checkmark {
+    background-color: black;
+    border: 2px solid white;
+  }
+
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .section_tickets__checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the indicator (dot/circle) when checked */
+  .section_tickets__container input:checked~.section_tickets__checkmark:after {
+    display: block;
+  }
+
+  /* Style the indicator (dot/circle) */
+  .section_tickets__container .section_tickets__checkmark:after {
+    top: 3.5px;
+    left: 3.5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: white;
+  }
+}

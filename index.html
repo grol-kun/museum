@@ -189,30 +189,29 @@
             <div class="section_tickets__img">
               <img src="/assets/img/tickets/Rectangle69.jpg" alt="Buy tickets" />
             </div>
-            <!-- <div class="section_tickets__calculation"> -->
             <form class="section_tickets__calculation" action="" onsubmit="alert('Thanks');return false">
               <div class="section_tickets__ticket-type">
                 <h3 class="section_tickets__h3">Ticket Type</h3>
                 <div class="section_tickets__radio-group">
-                  <div class="section_tickets__radio-box">
-                    <input type="radio" class="section_tickets__radio" name="ticket-type" id="radio_1"
-                      value="Permanent_exhibition" checked />
-                  </div>
-                  <label for="radio_1" class="section_tickets__label">Permanent exhibition</label>
+                  <label class="section_tickets__container">
+                    <p class="section_tickets__p">Permanent exhibition</p>
+                    <input type="radio" checked="checked" name="radio" value="Permanent_exhibition">
+                    <span class="section_tickets__checkmark"></span>
+                  </label>
                 </div>
                 <div class="section_tickets__radio-group">
-                  <div class="section_tickets__radio-box">
-                    <input type="radio" class="section_tickets__radio" name="ticket-type" id="radio_2"
-                      value="Temporary_exhibition" />
-                  </div>
-                  <label for="radio_2" class="section_tickets__label">Temporary exhibition</label>
+                  <label class="section_tickets__container">
+                    <p class="section_tickets__p">Temporary exhibition</p>
+                    <input type="radio" name="radio" value="Temporary_exhibition">
+                    <span class="section_tickets__checkmark"></span>
+                  </label>
                 </div>
                 <div class="section_tickets__radio-group">
-                  <div class="section_tickets__radio-box">
-                    <input type="radio" class="section_tickets__radio" name="ticket-type" id="radio_3"
-                      value="Combined_admission" />
-                  </div>
-                  <label for="radio_3" class="section_tickets__label">Combined Admission</label>
+                  <label class="section_tickets__container">
+                    <p class="section_tickets__p">Combined Admission</p>
+                    <input type="radio" name="radio" value="Combined_admission">
+                    <span class="section_tickets__checkmark"></span>
+                  </label>
                 </div>
               </div>
               <div class="section_tickets__amount">
@@ -251,13 +250,14 @@
                 <button class="section_tickets__buy-btn" type="submit">Buy Now</button>
               </div>
             </form>
-            <!-- </div> -->
           </div>
         </div>
       </section>
-
+      <!-- CONTACTS -->
       <section class="section section_contacts" id="contacts">
-        <div class="container section_contacts__container"></div>
+        <div class="container section_contacts__container">
+
+        </div>
       </section>
     </main>
     <footer class="footer page__footer">
