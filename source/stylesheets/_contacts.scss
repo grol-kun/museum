@@ -1,1 +1,59 @@
 @import 'mixin';
+
+.section_contacts {
+  padding: $standard-padding;
+}
+
+.section_contacts__container {
+  .section_contacts__title-box {
+    padding-bottom: 6.438rem;
+    padding-left: 1.25rem;
+
+    .section_contacts__title {
+      width: 100%;
+      @extend %section-title;
+      color: $color-font-gold;
+      position: relative;
+
+      &::after {
+        @include tmp-underline(-1.563rem, 100%, 0.188rem);
+      }
+    }
+  }
+
+  .section_contacts__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1.25rem;
+
+    .section_contacts__address {
+      .section_contacts__h3-box {
+        h3 {
+          @extend %regular-28;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 2.063rem;
+        }
+      } 
+
+      .section_contacts__data {
+        .section_contacts__text {
+          @extend %regular-22;
+          font-weight: 300;
+        }
+      }
+    }
+
+    .map {
+      max-width: 60rem;
+      max-height: 38.75rem;
+      padding: 0 0.625rem 0 0;
+
+      map {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
