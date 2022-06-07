@@ -16,6 +16,7 @@
     .header__logo {
       display: flex;
       align-items: center;
+      padding-left: 1.25rem;
 
       &:hover {
         cursor: pointer;
@@ -46,7 +47,7 @@
       ul {
         line-height: 3.125rem;
         margin: 0;
-        padding: 0;
+        padding: 0 1.25rem 0 0;
         list-style: none;
         display: flex;
         justify-content: space-between;

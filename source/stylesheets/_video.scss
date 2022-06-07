@@ -9,25 +9,29 @@
 
         .section_video__video {
             width: calc(100% - 2.5rem);
-            padding: 0 1.25rem 0 1.25rem;
+            //padding: 0 1.25rem 0 1.25rem;
             //width: 100%;
         }
     }
 
     .section_video__text-block {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         -webkit-box-align: center;
         -ms-flex-align: center;
         flex-wrap: wrap;
+        //margin: 0 -3.594rem;
+
 
         .section_video__title {
+            //padding: 0 3.594rem;
             @extend %section-title;
             color: $color-font-gold;
         }
 
         .section_video__text {
+            //padding: 0 3.594rem;
             max-width: 45rem;
             @extend %regular-22;
             line-height: 175%;
