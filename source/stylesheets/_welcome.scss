@@ -1,6 +1,5 @@
 @import 'mixin';
 
-
 .section-welcome {
   padding: 4.688rem 0 0 0;
   @extend %dark-section;
@@ -16,13 +15,12 @@
     .section-welcome__background {
       background-image: url("/assets/img/background.jpg");
       background-position: calc(100%), calc(100%);
-      width: calc(1215/750*100%); ; 
+      width: calc(1215/750*100%);
       height: calc(64vw);
       background-repeat: no-repeat;
       background-size: contain;
       max-height: 750px;
       max-width: 1215px;
-
       -moz-background-size: cover; // Firefox 3.6
     }
 
@@ -67,11 +65,7 @@
             width: 100%;
           }
         }
-
       }
-
     }
-
   }
-
 }

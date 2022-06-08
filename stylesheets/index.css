@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -16,14 +16,14 @@
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo_text {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -36,7 +36,7 @@
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo_text, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
   text-transform: uppercase;
 }
 
@@ -51,16 +51,47 @@
   text-transform: uppercase;
 }
 
-.header, .section-welcome, .section_explore, .section_tickets {
+.header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation .header__anchor:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover {
+.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.header .header__container .header__logo, .footer .footer__container .footer__column-1 .footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.25rem;
+}
+
+.header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
+  cursor: pointer;
+  -webkit-filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+          filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header .header__container .header__logo :first-child, .footer .footer__container .footer__column-1 .footer__logo :first-child {
+  background-image: url("/assets/svg/logo.svg");
+  width: 49px;
+  height: 26px;
+  position: relative;
+  top: -4px;
+}
+
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+  margin-left: 1.313rem;
+  line-height: 3.125rem;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group {
@@ -101,8 +132,8 @@
   left: 0;
   height: 17px;
   width: 17px;
-  background-color: #eee;
-  border: 2px solid white;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 50%;
 }
 
@@ -111,8 +142,8 @@
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container input:checked ~ .section_tickets__checkmark {
-  background-color: black;
-  border: 2px solid white;
+  background-color: #030303;
+  border: 2px solid #ffffff;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__checkmark:after {
@@ -131,7 +162,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: white;
+  background: #ffffff;
 }
 
 .header {
@@ -152,35 +183,6 @@
   width: 100%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-.header .header__container .header__logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-left: 1.25rem;
-}
-
-.header .header__container .header__logo:hover {
-  cursor: pointer;
-  -webkit-filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
-          filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.header .header__container .header__logo_img {
-  background-image: url("/assets/svg/logo.svg");
-  width: 49px;
-  height: 26px;
-}
-
-.header .header__container .header__logo_text {
-  margin-left: 1.313rem;
-  line-height: 3.125rem;
 }
 
 .header .header__container .header__navigation {
@@ -205,13 +207,13 @@
   display: inline-block;
 }
 
-.header .header__container .header__navigation .header__anchor {
+.header .header__container .header__navigation a {
   display: block;
   padding: 6px 12px;
   text-decoration: none;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -224,14 +226,14 @@
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo_text {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -244,7 +246,7 @@
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo_text, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
   text-transform: uppercase;
 }
 
@@ -259,16 +261,47 @@
   text-transform: uppercase;
 }
 
-.header, .section-welcome, .section_explore, .section_tickets {
+.header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation .header__anchor:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover {
+.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.header .header__container .header__logo, .footer .footer__container .footer__column-1 .footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.25rem;
+}
+
+.header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
+  cursor: pointer;
+  -webkit-filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+          filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header .header__container .header__logo :first-child, .footer .footer__container .footer__column-1 .footer__logo :first-child {
+  background-image: url("/assets/svg/logo.svg");
+  width: 49px;
+  height: 26px;
+  position: relative;
+  top: -4px;
+}
+
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+  margin-left: 1.313rem;
+  line-height: 3.125rem;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group {
@@ -309,8 +342,8 @@
   left: 0;
   height: 17px;
   width: 17px;
-  background-color: #eee;
-  border: 2px solid white;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 50%;
 }
 
@@ -319,8 +352,8 @@
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container input:checked ~ .section_tickets__checkmark {
-  background-color: black;
-  border: 2px solid white;
+  background-color: #030303;
+  border: 2px solid #ffffff;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__checkmark:after {
@@ -339,7 +372,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: white;
+  background: #ffffff;
 }
 
 .section-welcome {
@@ -413,7 +446,7 @@
   width: 100%;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -426,14 +459,14 @@
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo_text {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -446,7 +479,7 @@
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo_text, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
   text-transform: uppercase;
 }
 
@@ -461,16 +494,47 @@
   text-transform: uppercase;
 }
 
-.header, .section-welcome, .section_explore, .section_tickets {
+.header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation .header__anchor:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover {
+.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.header .header__container .header__logo, .footer .footer__container .footer__column-1 .footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.25rem;
+}
+
+.header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
+  cursor: pointer;
+  -webkit-filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+          filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header .header__container .header__logo :first-child, .footer .footer__container .footer__column-1 .footer__logo :first-child {
+  background-image: url("/assets/svg/logo.svg");
+  width: 49px;
+  height: 26px;
+  position: relative;
+  top: -4px;
+}
+
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+  margin-left: 1.313rem;
+  line-height: 3.125rem;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group {
@@ -511,8 +575,8 @@
   left: 0;
   height: 17px;
   width: 17px;
-  background-color: #eee;
-  border: 2px solid white;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 50%;
 }
 
@@ -521,8 +585,8 @@
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container input:checked ~ .section_tickets__checkmark {
-  background-color: black;
-  border: 2px solid white;
+  background-color: #030303;
+  border: 2px solid #ffffff;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__checkmark:after {
@@ -541,7 +605,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: white;
+  background: #ffffff;
 }
 
 .section_visiting {
@@ -618,7 +682,7 @@
   padding-bottom: 0.625rem;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -631,14 +695,14 @@
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo_text {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -651,7 +715,7 @@
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo_text, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
   text-transform: uppercase;
 }
 
@@ -666,16 +730,47 @@
   text-transform: uppercase;
 }
 
-.header, .section-welcome, .section_explore, .section_tickets {
+.header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation .header__anchor:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover {
+.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.header .header__container .header__logo, .footer .footer__container .footer__column-1 .footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.25rem;
+}
+
+.header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
+  cursor: pointer;
+  -webkit-filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+          filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header .header__container .header__logo :first-child, .footer .footer__container .footer__column-1 .footer__logo :first-child {
+  background-image: url("/assets/svg/logo.svg");
+  width: 49px;
+  height: 26px;
+  position: relative;
+  top: -4px;
+}
+
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+  margin-left: 1.313rem;
+  line-height: 3.125rem;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group {
@@ -716,8 +811,8 @@
   left: 0;
   height: 17px;
   width: 17px;
-  background-color: #eee;
-  border: 2px solid white;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 50%;
 }
 
@@ -726,8 +821,8 @@
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container input:checked ~ .section_tickets__checkmark {
-  background-color: black;
-  border: 2px solid white;
+  background-color: #030303;
+  border: 2px solid #ffffff;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__checkmark:after {
@@ -746,10 +841,10 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: white;
+  background: #ffffff;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -762,14 +857,14 @@
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo_text {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -782,7 +877,7 @@
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo_text, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
   text-transform: uppercase;
 }
 
@@ -797,16 +892,47 @@
   text-transform: uppercase;
 }
 
-.header, .section-welcome, .section_explore, .section_tickets {
+.header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation .header__anchor:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover {
+.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.header .header__container .header__logo, .footer .footer__container .footer__column-1 .footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.25rem;
+}
+
+.header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
+  cursor: pointer;
+  -webkit-filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+          filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header .header__container .header__logo :first-child, .footer .footer__container .footer__column-1 .footer__logo :first-child {
+  background-image: url("/assets/svg/logo.svg");
+  width: 49px;
+  height: 26px;
+  position: relative;
+  top: -4px;
+}
+
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+  margin-left: 1.313rem;
+  line-height: 3.125rem;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group {
@@ -847,8 +973,8 @@
   left: 0;
   height: 17px;
   width: 17px;
-  background-color: #eee;
-  border: 2px solid white;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 50%;
 }
 
@@ -857,8 +983,8 @@
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container input:checked ~ .section_tickets__checkmark {
-  background-color: black;
-  border: 2px solid white;
+  background-color: #030303;
+  border: 2px solid #ffffff;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__checkmark:after {
@@ -877,7 +1003,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: white;
+  background: #ffffff;
 }
 
 .section_explore {
@@ -922,14 +1048,17 @@
   color: #9D8665;
 }
 
-.section_explore__container .section_explore__picture img {
-  width: 100%;
-  height: 100%;
+.section_explore__container .section_explore__picture {
   max-width: 720px;
   max-height: 700px;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section_explore__container .section_explore__picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -942,14 +1071,14 @@
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo_text {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -962,7 +1091,7 @@
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo_text, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
   text-transform: uppercase;
 }
 
@@ -977,16 +1106,47 @@
   text-transform: uppercase;
 }
 
-.header, .section-welcome, .section_explore, .section_tickets {
+.header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation .header__anchor:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover {
+.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.header .header__container .header__logo, .footer .footer__container .footer__column-1 .footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.25rem;
+}
+
+.header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
+  cursor: pointer;
+  -webkit-filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+          filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header .header__container .header__logo :first-child, .footer .footer__container .footer__column-1 .footer__logo :first-child {
+  background-image: url("/assets/svg/logo.svg");
+  width: 49px;
+  height: 26px;
+  position: relative;
+  top: -4px;
+}
+
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+  margin-left: 1.313rem;
+  line-height: 3.125rem;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group {
@@ -1027,8 +1187,8 @@
   left: 0;
   height: 17px;
   width: 17px;
-  background-color: #eee;
-  border: 2px solid white;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 50%;
 }
 
@@ -1037,8 +1197,8 @@
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container input:checked ~ .section_tickets__checkmark {
-  background-color: black;
-  border: 2px solid white;
+  background-color: #030303;
+  border: 2px solid #ffffff;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__checkmark:after {
@@ -1057,7 +1217,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: white;
+  background: #ffffff;
 }
 
 .section_video {
@@ -1097,7 +1257,7 @@
   font-weight: 300;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -1110,14 +1270,14 @@
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo_text {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -1130,7 +1290,7 @@
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo_text, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
   text-transform: uppercase;
 }
 
@@ -1145,16 +1305,47 @@
   text-transform: uppercase;
 }
 
-.header, .section-welcome, .section_explore, .section_tickets {
+.header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation .header__anchor:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover {
+.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.header .header__container .header__logo, .footer .footer__container .footer__column-1 .footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.25rem;
+}
+
+.header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
+  cursor: pointer;
+  -webkit-filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+          filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header .header__container .header__logo :first-child, .footer .footer__container .footer__column-1 .footer__logo :first-child {
+  background-image: url("/assets/svg/logo.svg");
+  width: 49px;
+  height: 26px;
+  position: relative;
+  top: -4px;
+}
+
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+  margin-left: 1.313rem;
+  line-height: 3.125rem;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group {
@@ -1195,8 +1386,8 @@
   left: 0;
   height: 17px;
   width: 17px;
-  background-color: #eee;
-  border: 2px solid white;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 50%;
 }
 
@@ -1205,8 +1396,8 @@
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container input:checked ~ .section_tickets__checkmark {
-  background-color: black;
-  border: 2px solid white;
+  background-color: #030303;
+  border: 2px solid #ffffff;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__checkmark:after {
@@ -1225,7 +1416,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: white;
+  background: #ffffff;
 }
 
 .section_tickets {
@@ -1269,9 +1460,6 @@
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__img {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 50%;
-          flex: 1 1 50%;
   max-height: 34.375rem;
   max-width: 45rem;
 }
@@ -1446,7 +1634,7 @@
   background-color: #9D8665;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -1459,14 +1647,14 @@
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo_text {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -1479,7 +1667,7 @@
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo_text, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
   text-transform: uppercase;
 }
 
@@ -1494,16 +1682,47 @@
   text-transform: uppercase;
 }
 
-.header, .section-welcome, .section_explore, .section_tickets {
+.header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation .header__anchor:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover {
+.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.header .header__container .header__logo, .footer .footer__container .footer__column-1 .footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.25rem;
+}
+
+.header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
+  cursor: pointer;
+  -webkit-filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+          filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header .header__container .header__logo :first-child, .footer .footer__container .footer__column-1 .footer__logo :first-child {
+  background-image: url("/assets/svg/logo.svg");
+  width: 49px;
+  height: 26px;
+  position: relative;
+  top: -4px;
+}
+
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+  margin-left: 1.313rem;
+  line-height: 3.125rem;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group {
@@ -1544,8 +1763,8 @@
   left: 0;
   height: 17px;
   width: 17px;
-  background-color: #eee;
-  border: 2px solid white;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 50%;
 }
 
@@ -1554,8 +1773,8 @@
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container input:checked ~ .section_tickets__checkmark {
-  background-color: black;
-  border: 2px solid white;
+  background-color: #030303;
+  border: 2px solid #ffffff;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__checkmark:after {
@@ -1574,7 +1793,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: white;
+  background: #ffffff;
 }
 
 .section_contacts {
@@ -1624,15 +1843,302 @@
   font-weight: 300;
 }
 
-.section_contacts__container .section_contacts__row .map {
+.section_contacts__container .section_contacts__row .section_contacts__map {
   max-width: 60rem;
   max-height: 38.75rem;
   padding: 0 0.625rem 0 0;
 }
 
-.section_contacts__container .section_contacts__row .map map {
+.section_contacts__container .section_contacts__row .section_contacts__map img {
   width: 100%;
-  height: 100%;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.344rem;
+  letter-spacing: 5%;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3 {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
+  font-size: 1.375rem;
+  font-weight: 100;
+  line-height: 1.625rem;
+  font-style: normal;
+}
+
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+  font-family: "Forum", cursive;
+  font-size: 1.75rem;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+  font-size: 2rem;
+  letter-spacing: 0.313rem;
+}
+
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+  text-transform: uppercase;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+  font-size: 5rem;
+  margin: 0;
+  font-family: Forum, cursive;
+  font-style: normal;
+  line-height: 112%;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.header, .section-welcome, .section_explore, .section_tickets, .footer {
+  background: #030303;
+  color: #ffffff;
+}
+
+.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+  cursor: pointer;
+  color: #9D8665;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header .header__container .header__logo, .footer .footer__container .footer__column-1 .footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.25rem;
+}
+
+.header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
+  cursor: pointer;
+  -webkit-filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+          filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header .header__container .header__logo :first-child, .footer .footer__container .footer__column-1 .footer__logo :first-child {
+  background-image: url("/assets/svg/logo.svg");
+  width: 49px;
+  height: 26px;
+  position: relative;
+  top: -4px;
+}
+
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+  margin-left: 1.313rem;
+  line-height: 3.125rem;
+}
+
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group {
+  /* Hide the browser's default radio button */
+  /* Create a custom radio button */
+  /* On mouse-over, add a grey background color */
+  /* When the radio button is checked, add a blue background */
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  /* Show the indicator (dot/circle) when checked */
+  /* Style the indicator (dot/circle) */
+}
+
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container {
+  font-weight: 100;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__checkmark {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  top: 0.25rem;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container:hover input ~ .section_tickets__checkmark {
+  background-color: #868282;
+}
+
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container input:checked ~ .section_tickets__checkmark {
+  background-color: #030303;
+  border: 2px solid #ffffff;
+}
+
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container input:checked ~ .section_tickets__checkmark:after {
+  display: block;
+}
+
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container .section_tickets__checkmark:after {
+  top: 3.5px;
+  left: 3.5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.footer {
+  width: 100%;
+  padding: 4.688rem 0;
+}
+
+.footer .footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer .footer__container .footer__column-1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+}
+
+.footer .footer__container .footer__column-1 .footer__logo {
+  padding: 0 1.25rem;
+}
+
+.footer .footer__container .footer__column-2 {
+  max-width: 720px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20%;
+          flex: 1 1 20%;
+}
+
+.footer .footer__container .footer__column-2 ul {
+  line-height: 3.125rem;
+  margin: 0;
+  padding: 0 1.25rem 0 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer__container .footer__column-2 ul .footer__li-block {
+  max-height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 1.25rem 0 0;
+}
+
+.footer .footer__container .footer__column-2 ul .footer__li-block li {
+  display: inline-block;
+}
+
+.footer .footer__container .footer__column-2 ul .footer__li-block a {
+  display: block;
+  text-decoration: none;
+  letter-spacing: 0.125rem;
+}
+
+.footer .footer__container .footer__column-3 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 3px 0 0;
+}
+
+.footer .footer__container .footer__column-3 .footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 1.25rem;
+  -webkit-column-gap: 1.5rem;
+          column-gap: 1.5rem;
+}
+
+.footer .footer__container .footer__column-3 .footer__social .footer__social-logo {
+  background-color: #030303;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.footer .footer__container .footer__column-3 .footer__social .footer__social-logo:hover {
+  cursor: pointer;
+  -webkit-filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+          filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.footer .footer__container .footer__column-3 .footer__social .youtube {
+  background: url(/assets/svg/social/Vector_2.svg) 50% 50% no-repeat;
+}
+
+.footer .footer__container .footer__column-3 .footer__social .instagram {
+  background: url(/assets/svg/social/Vector_3.svg) 50% 50% no-repeat;
+}
+
+.footer .footer__container .footer__column-3 .footer__social .facebook {
+  background: url(/assets/svg/social/Vector_4.svg) 50% 50% no-repeat;
+}
+
+.footer .footer__container .footer__column-3 .footer__social .twitter {
+  background: url(/assets/svg/social/Vector_5.svg) 50% 50% no-repeat;
+}
+
+.footer .footer__container .footer__column-3 .footer__social .pinterest {
+  background: url(/assets/svg/social/Vector_6.svg) 50% 50% no-repeat;
 }
 
 html {
@@ -1648,21 +2154,13 @@ body {
 }
 
 a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
-}
-
-.main {
-  border: 1px solid red;
 }
 
 .container {
   margin: 0 auto;
   max-width: 1440px;
-  width: 100%;
-  /* display: flex;
-  flex-wrap: wrap; */
   padding: 0 1.25rem 0 1.25rem;
-  border: solid blue 1px;
 }
 /*# sourceMappingURL=index.css.map */

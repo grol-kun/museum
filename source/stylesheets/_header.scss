@@ -14,29 +14,7 @@
     flex-wrap: wrap;
 
     .header__logo {
-      display: flex;
-      align-items: center;
-      padding-left: 1.25rem;
-
-      &:hover {
-        cursor: pointer;
-        filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
-        transition: 1s;
-      }
-
-      &_img {
-        background-image: url("/assets/svg/logo.svg");
-        width: 49px;
-        height: 26px;
-      }
-
-      &_text {
-        @extend %forum-28;
-        @extend %uppercase;
-        margin-left: 1.313rem;
-        line-height: 3.125rem;
-      }
-
+      @extend %tmp_logo;
     }
 
     .header__navigation {
@@ -57,7 +35,7 @@
         display: inline-block;
       }
 
-      .header__anchor {
+      a {
         display: block;
         padding: 6px 12px;
         text-decoration: none;

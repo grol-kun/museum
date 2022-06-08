@@ -1,0 +1,106 @@
+@import 'mixin';
+
+.footer {
+  @extend %dark-section;
+  width: 100%;
+  padding: $standard-padding;
+
+  .footer__container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .footer__column-1 {
+      flex: 0 0 20%;
+
+      .footer__logo {
+        @extend %tmp_logo;
+        padding: 0 1.25rem;
+      }
+    }
+
+    .footer__column-2 {
+      @extend %regular-22;
+      max-width: 720px;
+      flex: 1 1 20%;
+
+      ul {
+        line-height: 3.125rem;
+        margin: 0;
+        padding: 0 1.25rem 0 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+
+        .footer__li-block {
+          max-height: 150px;
+          display: flex;
+          flex-direction: column;
+          padding: 0 1.25rem 0 0;
+
+          li {
+            display: inline-block;
+          }
+
+          a {
+            display: block;
+            text-decoration: none;
+            @extend %interactive;
+            letter-spacing: 0.125rem; //2px
+
+
+          }
+        }
+      }
+    }
+
+    .footer__column-3 {
+      flex: 0 0 50%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      padding: 0 3px 0 0;
+
+      .footer__social {
+        display: flex;
+        padding: 0 1.25rem;
+        column-gap: 1.5rem;
+
+        .footer__social-logo {
+          background-color: $color-bg-dark;
+          border: 1px solid $color-white;
+          border-radius: 50%;
+          width: 48px;
+          height: 48px;
+
+          &:hover {
+            cursor: pointer;
+            filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+            transition: 1s;
+          }
+
+        }
+
+        .youtube {
+          background: url(/assets/svg/social/Vector_2.svg) 50% 50% no-repeat;
+        }
+
+        .instagram {
+          background: url(/assets/svg/social/Vector_3.svg) 50% 50% no-repeat;
+        }
+
+        .facebook {
+          background: url(/assets/svg/social/Vector_4.svg) 50% 50% no-repeat;
+        }
+
+        .twitter {
+          background: url(/assets/svg/social/Vector_5.svg) 50% 50% no-repeat;
+        }
+
+        .pinterest {
+          background: url(/assets/svg/social/Vector_6.svg) 50% 50% no-repeat;
+        }
+
+      }
+    }
+  }
+}

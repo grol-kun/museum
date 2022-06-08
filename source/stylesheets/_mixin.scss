@@ -77,6 +77,33 @@
   background-color: $color-dark-red;
 }
 
+%tmp_logo {
+  display: flex;
+  align-items: center;
+  padding-left: 1.25rem;
+
+  :hover {
+    cursor: pointer;
+    filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+    transition: 1s;
+  }
+
+  :first-child {
+    background-image: url("/assets/svg/logo.svg");
+    width: 49px;
+    height: 26px;
+    position: relative;
+    top: -4px;
+  }
+
+  :last-child {
+    @extend %forum-28;
+    @extend %uppercase;
+    margin-left: 1.313rem;
+    line-height: 3.125rem;
+  }
+}
+
 %tmp_radio_btn {
   .section_tickets__container {
     @extend %regular-22;
@@ -109,8 +136,8 @@
     left: 0;
     height: 17px;
     width: 17px;
-    background-color: #eee;
-    border: 2px solid white;
+    background-color: $color-white;
+    border: 2px solid $color-white;
     border-radius: 50%;
   }
 
@@ -121,8 +148,8 @@
 
   /* When the radio button is checked, add a blue background */
   .section_tickets__container input:checked~.section_tickets__checkmark {
-    background-color: black;
-    border: 2px solid white;
+    background-color: $color-bg-dark;
+    border: 2px solid $color-white;
   }
 
   /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -144,6 +171,6 @@
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: white;
+    background: $color-white;
   }
 }
