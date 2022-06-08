@@ -230,7 +230,7 @@
               <img src="/assets/img/tickets/Rectangle69.jpg" alt="Buy tickets" />
             </div>
 
-            <form class="section_tickets__calculation" action="" onsubmit="alert('Thanks');return false">
+            <form class="section_tickets__calculation" action="">
 
               <div class="section_tickets__ticket-type">
                 <h3 class="section_tickets__h3">Ticket Type</h3>
@@ -238,7 +238,7 @@
                 <div class="section_tickets__radio-group">
                   <label class="section_tickets__container">
                     <p class="section_tickets__p">Permanent exhibition</p>
-                    <input type="radio" checked="checked" name="radio" value="Permanent_exhibition">
+                    <input type="radio" checked="checked" name="radio" value="Permanent_exhibition" class="changeable">
                     <span class="section_tickets__checkmark"></span>
                   </label>
                 </div>
@@ -246,7 +246,7 @@
                 <div class="section_tickets__radio-group">
                   <label class="section_tickets__container">
                     <p class="section_tickets__p">Temporary exhibition</p>
-                    <input type="radio" name="radio" value="Temporary_exhibition">
+                    <input type="radio" name="radio" value="Temporary_exhibition" class="changeable">
                     <span class="section_tickets__checkmark"></span>
                   </label>
                 </div>
@@ -254,7 +254,7 @@
                 <div class="section_tickets__radio-group">
                   <label class="section_tickets__container">
                     <p class="section_tickets__p">Combined Admission</p>
-                    <input type="radio" name="radio" value="Combined_admission">
+                    <input type="radio" name="radio" value="Combined_admission" class="changeable">
                     <span class="section_tickets__checkmark"></span>
                   </label>
                 </div>
@@ -270,8 +270,8 @@
                     <button type="button" class="section_tickets__btn" onclick="this.nextElementSibling.stepDown()">
                       –
                     </button>
-                    <input type="number" class="section_tickets__input-number" min="0" max="20" value="1" readonly
-                      class="number" />
+                    <input type="number" class="section_tickets__input-number changeable" min="0" max="20" value="1"
+                      readonly id="basic" />
                     <button type="button" class="section_tickets__btn" onclick="this.previousElementSibling.stepUp()">
                       +
                     </button>
@@ -284,8 +284,8 @@
                     <button type="button" class="section_tickets__btn" onclick="this.nextElementSibling.stepDown()">
                       –
                     </button>
-                    <input type="number" class="section_tickets__input-number" min="0" max="20" value="0" readonly
-                      class="number" />
+                    <input type="number" class="section_tickets__input-number changeable" min="0" max="20" value="0"
+                      readonly id="senior" />
                     <button type="button" class="section_tickets__btn" onclick="this.previousElementSibling.stepUp()">
                       +
                     </button>
@@ -404,7 +404,7 @@
             <a href="http://twitter.com/museelouvre" target="_blank">
               <div class="footer__social-logo twitter"></div>
             </a>
-            
+
             <a href="https://www.pinterest.fr/museedulouvre/" target="_blank">
               <div class="footer__social-logo pinterest"></div>
             </a>
@@ -415,6 +415,7 @@
     </footer>
 
   </div>
+  <script type="module" src="./main.js"></script>
 </body>
 
 </html>
