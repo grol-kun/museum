@@ -44,6 +44,13 @@
 
           a {
             color: $color-bg-dark;
+
+            &:hover {
+              cursor: pointer;
+              color: $color-font-gold;
+              font-weight: 300;
+              transition: 0;
+            }
           }
         }
       }
