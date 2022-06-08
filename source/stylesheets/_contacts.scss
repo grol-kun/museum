@@ -41,6 +41,10 @@
         .section_contacts__text {
           @extend %regular-22;
           font-weight: 300;
+
+          a {
+            color: $color-bg-dark;
+          }
         }
       }
     }

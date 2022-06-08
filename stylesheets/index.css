@@ -1843,6 +1843,10 @@
   font-weight: 300;
 }
 
+.section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text a {
+  color: #030303;
+}
+
 .section_contacts__container .section_contacts__row .section_contacts__map {
   max-width: 60rem;
   max-height: 38.75rem;
