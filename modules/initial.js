@@ -11,9 +11,7 @@ export const initial = {
       return false;
     };
 
-    console.log(form);
     Drawer.change();
     Drawer.watch();
-    
   },
 };
