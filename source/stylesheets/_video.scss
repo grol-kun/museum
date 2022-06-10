@@ -31,5 +31,20 @@
       line-height: 175%;
       font-weight: 300;
     }
+
+    @media (max-width: 1024px) {
+      .section_video__text {
+        display: none;
+      }
+    }
+
   }
+
+  @media (max-width: 768px) {
+    .section_video__text-block {
+      justify-content: center;
+    }
+  }
+
+
 }

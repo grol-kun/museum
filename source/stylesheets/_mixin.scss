@@ -54,6 +54,30 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 1024px) {
+  %section-title {
+    font-size: 50px;
+    line-height: 180%;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  %section-title {
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  %section-title {
+    font-size: 28px;
+    line-height: 143%;
+    /* or 143% */
+  }
+}
+
 %dark-section {
   background: $color-bg-dark;
   color: $color-white;
@@ -66,6 +90,7 @@
     transition: 1s;
   }
 }
+
 
 @mixin tmp-underline($bottom, $width, $height) {
   content: "";

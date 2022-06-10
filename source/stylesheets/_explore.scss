@@ -36,6 +36,25 @@
         color: $color-font-gold;
       }
     }
+
+    @media (max-width: 1420px) {
+      .section_explore__p {
+        max-width: 100%;
+      }
+    }
+    @media (max-width: 768px) {
+      .section_explore__p {
+        display: none;
+      }
+    }
+    
+
+  }
+
+  @media (max-width: 1420px) {
+    .section_explore__text-block {
+      width: 100%;
+    }
   }
 
   .section_explore__picture {

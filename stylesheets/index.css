@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -51,12 +55,36 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 1024px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 50px;
+    line-height: 180%;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 28px;
+    line-height: 143%;
+    /* or 143% */
+  }
+}
+
 .header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -165,6 +193,20 @@
   background: #ffffff;
 }
 
+/*@media (max-width: 1024px) {
+      root {
+      }
+    }
+
+     @media (max-width: 768px) {
+      :root {
+      }
+    }
+
+    @media (max-width: 768px) {
+      :root {
+      }
+    } */
 .header {
   width: 100%;
 }
@@ -185,6 +227,48 @@
       flex-wrap: wrap;
 }
 
+.header .header__container .header__menu-burger {
+  display: none;
+  margin: 0 6.25rem 0 0;
+  padding: 10px;
+}
+
+.header .header__container .header__menu-burger:hover {
+  cursor: pointer;
+  -webkit-filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+          filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header .header__container .header__menu-burger ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header .header__container .header__menu-burger ul li {
+  background: url(/assets/img/menu_Rectangle21.png) no-repeat;
+  background-position: 0 0;
+  width: 32px;
+  height: 2px;
+  padding: 0 0 6px 0;
+}
+
+.header .header__container .header__menu-burger ul :last-child {
+  padding: 0;
+}
+
+@media (max-width: 1024px) {
+  .header .header__container .header__menu-burger {
+    display: block;
+  }
+}
+
 .header .header__container .header__navigation {
   max-width: 720px;
   width: 100%;
@@ -193,8 +277,7 @@
 .header .header__container .header__navigation ul {
   line-height: 3.125rem;
   margin: 0;
-  padding: 0 1.25rem 0 0;
-  list-style: none;
+  padding: 0 10% 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -211,6 +294,30 @@
   display: block;
   padding: 6px 12px;
   text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .header .header__container .header__navigation {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header .header__container {
+    height: 130px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .header__container {
+    height: 110px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .header__container {
+    height: 90px;
+  }
 }
 
 .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
@@ -261,12 +368,36 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 1024px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 50px;
+    line-height: 180%;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 28px;
+    line-height: 143%;
+    /* or 143% */
+  }
+}
+
 .header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -376,7 +507,7 @@
 }
 
 .section-welcome {
-  padding: 4.688rem 0 0 0;
+  padding: 0;
   width: 100%;
 }
 
@@ -402,7 +533,12 @@
   background-size: contain;
   max-height: 750px;
   max-width: 1215px;
-  -moz-background-size: cover;
+}
+
+@media (max-width: 1024px) {
+  .section-welcome__background-box .section-welcome__background {
+    display: none;
+  }
 }
 
 .section-welcome__background-box .section-welcome__container {
@@ -411,10 +547,101 @@
   height: 100%;
 }
 
+.section-welcome__background-box .section-welcome__container .section-welcome__menu-bar {
+  position: absolute;
+  top: 0;
+  left: -300px;
+  max-width: 300px;
+  width: 100%;
+  height: 100%;
+  background-color: #030303;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__menu-bar.open {
+  z-index: 2;
+  left: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation {
+  margin-top: 35px;
+  display: none;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 2px;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation ul {
+  line-height: 23px;
+  margin: 0;
+  padding: 0 1.25rem 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 350px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation ul {
+    line-height: 15px;
+  }
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation li {
+  padding: 0 0 0 3.438rem;
+  display: inline-block;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a {
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:last-child:after {
+  content: "";
+  position: relative;
+  left: 20.63%;
+  right: 20.63%;
+  display: inline-block;
+  width: 8px;
+  height: 12px;
+  background-image: url(/assets/svg/vector_for_menu.svg);
+}
+
+@media (max-width: 1024px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation {
+    display: block;
+  }
+}
+
+@media (max-width: 420px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation {
+    margin-top: 0;
+  }
+}
+
 .section-welcome__background-box .section-welcome__container .section-welcome__text {
   position: absolute;
   padding-top: 10%;
   padding-left: 1.25rem;
+  z-index: 0;
+  display: block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p {
@@ -444,6 +671,116 @@
 .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button a {
   line-height: 4.688rem;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 0;
+  }
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__text.text-static {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text.text-static {
+    display: none;
+  }
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__text.text-active.open {
+  -webkit-animation-name: text, invisible;
+          animation-name: text, invisible;
+  -webkit-animation-duration: 0.5s, 0.1s;
+          animation-duration: 0.5s, 0.1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-delay: 0.1s, 0.5s;
+          animation-delay: 0.1s, 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  /*          animation-name: invisible;
+          animation-delay: 0.5s;
+          animation-fill-mode: forwards; */
+}
+
+@media (max-width: 1024px) {
+  .section-welcome__background-box .section-welcome__container {
+    background-image: url("/assets/img/background.jpg");
+    background-position: calc(100%), calc(100%);
+    width: calc(1215/750*100%);
+    height: calc(64vw);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 750px;
+    max-width: 1215px;
+  }
+}
+
+@-webkit-keyframes text {
+  0% {
+    left: 0;
+  }
+  50% {
+  }
+  100% {
+    left: 500px;
+  }
+}
+
+@keyframes text {
+  0% {
+    left: 0;
+  }
+  50% {
+  }
+  100% {
+    left: 500px;
+  }
+}
+
+@-webkit-keyframes invisible {
+  0% {
+    opacity: 1;
+  }
+  50% {
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes invisible {
+  0% {
+    opacity: 1;
+  }
+  50% {
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
@@ -494,12 +831,36 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 1024px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 50px;
+    line-height: 180%;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 28px;
+    line-height: 143%;
+    /* or 143% */
+  }
+}
+
 .header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -682,6 +1043,11 @@
   padding-bottom: 0.625rem;
 }
 
+/* @media (max-width: 1024px) {
+  .section-visiting__card-box {
+    gap: 3.813rem 2.75rem;
+  }
+} */
 .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -730,12 +1096,36 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 1024px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 50px;
+    line-height: 180%;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 28px;
+    line-height: 143%;
+    /* or 143% */
+  }
+}
+
 .header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -892,12 +1282,36 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 1024px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 50px;
+    line-height: 180%;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 28px;
+    line-height: 143%;
+    /* or 143% */
+  }
+}
+
 .header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -1048,6 +1462,24 @@
   color: #9D8665;
 }
 
+@media (max-width: 1420px) {
+  .section_explore__container .section_explore__text-block .section_explore__p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_explore__container .section_explore__text-block .section_explore__p {
+    display: none;
+  }
+}
+
+@media (max-width: 1420px) {
+  .section_explore__container .section_explore__text-block {
+    width: 100%;
+  }
+}
+
 .section_explore__container .section_explore__picture {
   max-width: 720px;
   max-height: 700px;
@@ -1106,12 +1538,36 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 1024px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 50px;
+    line-height: 180%;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 28px;
+    line-height: 143%;
+    /* or 143% */
+  }
+}
+
 .header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -1257,6 +1713,20 @@
   font-weight: 300;
 }
 
+@media (max-width: 1024px) {
+  .section_video .section_video__text-block .section_video__text {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_video .section_video__text-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -1305,12 +1775,36 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 1024px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 50px;
+    line-height: 180%;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 28px;
+    line-height: 143%;
+    /* or 143% */
+  }
+}
+
 .header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -1444,19 +1938,19 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 100%;
-  height: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 100%;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__img {
@@ -1467,6 +1961,12 @@
 .section_tickets__container .section_tickets__row .section_tickets__img img {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 768px) {
+  .section_tickets__container .section_tickets__row .section_tickets__img {
+    padding-bottom: 10%;
+  }
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation {
@@ -1519,8 +2019,26 @@
   max-width: 15.625rem;
 }
 
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__p {
+  font-size: 1.375rem;
+}
+
+@media (max-width: 1024px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group {
+    max-width: 30rem;
+  }
+}
+
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3 {
   font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 30%;
+            flex: 0 1 30%;
+  }
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount {
@@ -1634,6 +2152,31 @@
   background-color: #9D8665;
 }
 
+@media (max-width: 1024px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation {
+    width: 100%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section_tickets__container .section_tickets__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -1682,12 +2225,36 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 1024px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 50px;
+    line-height: 180%;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 28px;
+    line-height: 143%;
+    /* or 143% */
+  }
+}
+
 .header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -1839,6 +2406,16 @@
   line-height: 2.063rem;
 }
 
+@media (max-width: 768px) {
+  .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
 .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text {
   font-weight: 300;
 }
@@ -1855,6 +2432,12 @@
   transition: 0;
 }
 
+@media (max-width: 1024px) {
+  .section_contacts__container .section_contacts__row .section_contacts__address {
+    padding-bottom: 1%;
+  }
+}
+
 .section_contacts__container .section_contacts__row .section_contacts__map {
   max-width: 60rem;
   max-height: 38.75rem;
@@ -1863,6 +2446,16 @@
 
 .section_contacts__container .section_contacts__row .section_contacts__map img {
   width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .section_contacts__container .section_contacts__row .section_contacts__map {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 703px;
+  }
 }
 
 .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
@@ -1913,12 +2506,36 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 1024px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 50px;
+    line-height: 180%;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
+    font-size: 28px;
+    line-height: 143%;
+    /* or 143% */
+  }
+}
+
 .header, .section-welcome, .section_explore, .section_tickets, .footer {
   background: #030303;
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -2050,6 +2667,22 @@
   padding: 0 1.25rem;
 }
 
+@media (max-width: 768px) {
+  .footer .footer__container .footer__column-1 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 45%;
+            flex: 0 0 45%;
+  }
+}
+
+@media (max-width: 420px) {
+  .footer .footer__container .footer__column-1 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+}
+
 .footer .footer__container .footer__column-2 {
   max-width: 720px;
   -webkit-box-flex: 1;
@@ -2080,6 +2713,15 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 0 1.25rem 0 0;
+  /*           @media (max-width: 420px) {
+            li {
+              //border: solid red 1px;
+              &:nth-of-type(1) {
+                //font-size: 50px;
+                border: solid red 1px;
+              }
+            }
+          } */
 }
 
 .footer .footer__container .footer__column-2 ul .footer__li-block li {
@@ -2090,6 +2732,50 @@
   display: block;
   text-decoration: none;
   letter-spacing: 0.125rem;
+}
+
+@media (max-width: 420px) {
+  .footer .footer__container .footer__column-2 ul .footer__li-block {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (max-width: 420px) {
+  .footer .footer__container .footer__column-2 ul .footer__li-block.block-2 li:nth-of-type(1) {
+    padding: 0 31px 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer .footer__container .footer__column-2 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 45%;
+            flex: 0 0 45%;
+  }
+}
+
+@media (max-width: 420px) {
+  .footer .footer__container .footer__column-2 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 70%;
+            flex: 0 0 70%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer__container .footer__column-2 ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .footer .footer__container .footer__column-3 {
@@ -2153,6 +2839,23 @@
   background: url(/assets/svg/social/Vector_6.svg) 50% 50% no-repeat;
 }
 
+@media (max-width: 768px) {
+  .footer .footer__container .footer__column-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 99%;
+            flex: 0 0 99%;
+    margin: 1% 0 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer .footer__container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 html {
   font-size: 16px;
   scroll-behavior: smooth;
@@ -2160,9 +2863,28 @@ html {
   height: 100%;
 }
 
+@media (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+
 body {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -2174,5 +2896,11 @@ a {
   margin: 0 auto;
   max-width: 1440px;
   padding: 0 1.25rem 0 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 728px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

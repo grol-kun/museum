@@ -10,6 +10,7 @@ export class Drawer {
   static watch() {
     const changeables = document.querySelectorAll('.changeable');
     const inputNumbers = document.querySelectorAll('.section_tickets__input-number');
+    const menuBtn = document.querySelector('.header__menu-burger');
 
     for (let input of inputNumbers) {
       input.previousElementSibling.onclick = function () {
@@ -30,6 +31,7 @@ export class Drawer {
         Drawer.change();
       };
     }
+    menuBtn.addEventListener('click', this.toggle);
   }
 
   static change() {
@@ -55,5 +57,28 @@ export class Drawer {
     console.log(numOfbasics);
     console.log(numofsenior);
     return numOfbasics || numofsenior;
+  }
+
+  static toggle() {
+    const menuBar = document.querySelector('.section-welcome__menu-bar');
+    menuBar.classList.toggle('open');
+    const menuBtn = document.querySelector('.header__menu-burger');
+    menuBtn.classList.toggle('open');
+    const welcomeText = document.querySelector('.section-welcome__text.text-active');
+    welcomeText.classList.toggle('open');
+
+/*     window.onresize = function () {
+      let computedStyle = getComputedStyle(menuBtn);
+      console.log(computedStyle.display);
+
+      if (computedStyle.display == 'none') {
+        welcomeText.classList.remove('open');
+      }
+      if (computedStyle.display == 'block') {
+        if (!welcomeText.classList.contains('open')) {
+          welcomeText.classList.add('open');
+        }
+      }
+    }; */
   }
 }

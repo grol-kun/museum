@@ -1,5 +1,20 @@
 @import 'mixin';
 
+/*@media (max-width: 1024px) {
+      root {
+      }
+    }
+
+     @media (max-width: 768px) {
+      :root {
+      }
+    }
+
+    @media (max-width: 768px) {
+      :root {
+      }
+    } */
+
 .header {
   //border: 1px solid red;
   @extend %dark-section;
@@ -17,6 +32,42 @@
       @extend %tmp_logo;
     }
 
+    .header__menu-burger {
+      display: none;
+      margin: 0 6.25rem 0 0;
+      padding: 10px;
+
+      &:hover {
+        cursor: pointer;
+        filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+        transition: 1s;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+
+        li {
+          background: url(/assets/img/menu_Rectangle21.png) no-repeat;
+          background-position: 0 0;
+
+          width: 32px;
+          height: 2px;
+          padding: 0 0 6px 0;
+        }
+
+        :last-child {
+          padding: 0;
+        }
+      }
+    }
+
+    @media (max-width: 1024px) {
+      .header__menu-burger {
+        display: block;
+      }
+    }
+
     .header__navigation {
       @extend %regular-22;
       max-width: 720px;
@@ -25,8 +76,7 @@
       ul {
         line-height: 3.125rem;
         margin: 0;
-        padding: 0 1.25rem 0 0;
-        list-style: none;
+        padding: 0 10% 0 0;
         display: flex;
         justify-content: space-between;
       }
@@ -41,6 +91,31 @@
         text-decoration: none;
         @extend %interactive;
       }
+    }
+
+
+    @media (max-width: 1024px) {
+      .header__navigation {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .header__container {
+      height: 130px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .header__container {
+      height: 110px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .header__container {
+      height: 90px;
     }
   }
 }
