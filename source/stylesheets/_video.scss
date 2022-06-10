@@ -16,6 +16,7 @@
     .section_video__video-block {
       display: flex;
       justify-content: center;
+      padding-bottom: 40px;
     }
   }
 
@@ -44,7 +45,6 @@
         display: none;
       }
     }
-
   }
 
   @media (max-width: 420px) {
@@ -52,6 +52,16 @@
       justify-content: center;
     }
   }
+}
 
+@media (max-width: 1024px) {
+  .section_video {
+    padding: $standard-padding-1024;
+  }
+}
 
+@media (max-width: 768px) {
+  .section_video {
+    padding: $standard-padding-768;
+  }
 }

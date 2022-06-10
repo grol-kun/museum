@@ -4,6 +4,18 @@
   padding: $standard-padding;
 }
 
+@media (max-width: 1024px) {
+  .section_contacts {
+    padding: $standard-padding-1024;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_contacts {
+    padding: $standard-padding-768;
+  }
+}
+
 .section_contacts__container {
 
   .section_contacts__title-box {
@@ -99,6 +111,7 @@
         padding: 0 0 0 15px;
       }
     }
+
 
     @media (max-width: 768px) {
       .section_contacts__map {

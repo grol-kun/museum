@@ -976,6 +976,18 @@ ul {
   padding: 4.688rem 0;
 }
 
+@media (max-width: 1024px) {
+  .section_visiting {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_visiting {
+    padding: 40px 0;
+  }
+}
+
 .section-visiting__container .section-visiting__title-box {
   width: calc(100% - 40px);
   padding: 0 20px 6.438rem 20px;
@@ -1475,6 +1487,18 @@ ul {
   width: 100%;
 }
 
+@media (max-width: 1024px) {
+  .section_explore {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_explore {
+    padding: 40px 0;
+  }
+}
+
 .section_explore__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1502,6 +1526,12 @@ ul {
   background-color: #710707;
 }
 
+@media (max-width: 1024px) {
+  .section_explore__container .section_explore__text-block .section_explore__title {
+    padding-bottom: 83px;
+  }
+}
+
 .section_explore__container .section_explore__text-block .section_explore__p {
   padding-bottom: 1.563rem;
   line-height: 175% !important;
@@ -1515,6 +1545,15 @@ ul {
 @media (max-width: 1420px) {
   .section_explore__container .section_explore__text-block .section_explore__p {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section_explore__container .section_explore__text-block .section_explore__p:last-of-type {
+    display: none;
+  }
+  .section_explore__container .section_explore__text-block .section_explore__p:nth-of-type(2) {
+    padding-bottom: 62px;
   }
 }
 
@@ -1748,6 +1787,7 @@ ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-bottom: 40px;
   }
 }
 
@@ -1788,6 +1828,18 @@ ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section_video {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_video {
+    padding: 40px 0;
   }
 }
 
@@ -1982,6 +2034,17 @@ ul {
   width: 100%;
 }
 
+.section_tickets__container {
+  /*     @media (max-width: 1024px) {
+      .section_tickets__row {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center
+      }
+    } */
+}
+
 .section_tickets__container .section_tickets__wrapper-title {
   width: calc(100% - 30px);
   padding-left: 15px;
@@ -1991,9 +2054,6 @@ ul {
   position: relative;
   padding-bottom: 6.438rem;
   width: 100%;
-  /*       width: calc(100% - 30px);
-      padding-left:  15px;
-      padding-right: 15px; */
 }
 
 .section_tickets__container .section_tickets__title::after {
@@ -2004,6 +2064,12 @@ ul {
   width: 100%;
   height: 0.188rem;
   background-color: #710707;
+}
+
+@media (max-width: 1130px) {
+  .section_tickets__container .section_tickets__title {
+    padding-bottom: 83px;
+  }
 }
 
 .section_tickets__container .section_tickets__row {
@@ -2031,11 +2097,27 @@ ul {
 .section_tickets__container .section_tickets__row .section_tickets__img {
   max-height: 34.375rem;
   max-width: 45rem;
+  width: calc(100% - 30px);
+  padding: 0 15px;
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__img img {
   width: 100%;
-  height: 100%;
+}
+
+@media (max-width: 1130px) {
+  .section_tickets__container .section_tickets__row .section_tickets__img img {
+    max-height: 440px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media (max-width: 1130px) {
+  .section_tickets__container .section_tickets__row .section_tickets__img {
+    max-height: 440px;
+    max-width: 700px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -2106,14 +2188,12 @@ ul {
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3 {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1130px) {
   .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 30%;
-            flex: 0 1 30%;
+    display: none;
   }
 }
 
@@ -2135,7 +2215,13 @@ ul {
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3 {
-  font-weight: 700;
+  font-weight: 700 !important;
+}
+
+@media (max-width: 1130px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3 {
+    line-height: 33px !important;
+  }
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box {
@@ -2145,6 +2231,12 @@ ul {
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p {
   font-weight: 100;
   padding: 0 0 0.875rem 0;
+}
+
+@media (max-width: 1130px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p {
+    padding-bottom: 8px;
+  }
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number {
@@ -2187,6 +2279,19 @@ ul {
   display: none;
 }
 
+@media (max-width: 1130px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number {
+    width: 175px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box {
+    padding-top: 29px;
+  }
+}
+
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total {
   font-weight: 700;
   letter-spacing: 0.103rem;
@@ -2203,6 +2308,19 @@ ul {
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total .section_tickets__name {
   padding: 3.125rem 0;
+}
+
+@media (max-width: 1130px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total .section_tickets__name {
+    padding: 25px 0 69px 0;
+    font-weight: 700;
+    line-height: 33px;
+  }
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total .section_tickets__value {
+    padding: 25px 0 69px 0;
+    font-weight: 700;
+    line-height: 33px;
+  }
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn {
@@ -2227,28 +2345,24 @@ ul {
   background-color: #9D8665;
 }
 
-@media (max-width: 1024px) {
-  .section_tickets__container .section_tickets__row .section_tickets__calculation {
-    width: 100%;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+@media (max-width: 1130px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0 0 0 80px;
   }
 }
 
 @media (max-width: 1024px) {
-  .section_tickets__container .section_tickets__row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .section_tickets {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_tickets {
+    padding: 40px 0;
   }
 }
 
@@ -2440,6 +2554,18 @@ ul {
 
 .section_contacts {
   padding: 4.688rem 0;
+}
+
+@media (max-width: 1024px) {
+  .section_contacts {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_contacts {
+    padding: 40px 0;
+  }
 }
 
 .section_contacts__container .section_contacts__title-box {

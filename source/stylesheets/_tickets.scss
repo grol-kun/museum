@@ -15,19 +15,20 @@
     .section_tickets__title {
       @extend %section-title;
       position: relative;
-      //padding-left: 1.25rem;
       padding-bottom: 6.438rem;
       width: 100%;
-
-
-      /*       width: calc(100% - 30px);
-      padding-left:  15px;
-      padding-right: 15px; */
 
       &::after {
         @include tmp-underline(5rem, 100%, 0.188rem);
       }
     }
+
+    @media (max-width: 1130px) {
+      .section_tickets__title {
+        padding-bottom: 83px;
+      }
+    }
+
 
     .section_tickets__row {
       display: flex;
@@ -43,10 +44,25 @@
       .section_tickets__img {
         max-height: 34.375rem;
         max-width: 45rem;
+        width: calc(100% - 30px);
+        padding: 0 15px;
 
         img {
           width: 100%;
-          height: 100%;
+        }
+
+        @media (max-width: 1130px) {
+          img {
+            max-height: 440px;
+            object-fit: cover;
+          }
+        }
+      }
+
+      @media (max-width: 1130px) {
+        .section_tickets__img {
+          max-height: 440px;
+          max-width: 700px;
         }
       }
 
@@ -92,16 +108,16 @@
 
           .section_tickets__h3 {
             @extend %regular-28;
-            font-weight: 700;
+            font-weight: 700 !important;
           }
+
         }
 
-        @media (max-width: 1024px) {
+        @media (max-width: 1130px) {
           .section_tickets__ticket-type {
-            flex: 0 1 30%;
+            display: none;
           }
         }
-
 
         .section_tickets__amount {
           display: flex;
@@ -113,7 +129,13 @@
 
           .section_tickets__h3 {
             @extend %regular-28;
-            font-weight: 700;
+            font-weight: 700 !important;
+          }
+
+          @media (max-width: 1130px) {
+            .section_tickets__h3 {
+              line-height: 33px !important;
+            }
           }
 
           .section_tickets__number-box {
@@ -124,6 +146,13 @@
               font-weight: 100;
               padding: 0 0 0.875rem 0;
             }
+
+            @media (max-width: 1130px) {
+              .section_tickets__p {
+                padding-bottom: 8px;
+              }
+            }
+            
 
             .section_tickets__number {
               border: 1px solid $color-white;
@@ -161,6 +190,19 @@
                 }
               }
             }
+
+            @media (max-width: 1130px) {
+              .section_tickets__number {
+                width: 175px;
+                height: 50px;
+              }
+            }
+          }
+
+          @media (max-width: 1130px) {
+            .section_tickets__number-box {
+              padding-top: 29px;
+            }
           }
 
           .section_tickets__total {
@@ -174,6 +216,21 @@
             .section_tickets__name {
               padding: 3.125rem 0;
             }
+
+            @media (max-width: 1130px) {
+              .section_tickets__name {
+                padding: 25px 0 69px 0;
+                font-weight: 700;
+                line-height: 33px;
+              }
+              .section_tickets__value {
+                padding: 25px 0 69px 0;
+                font-weight: 700;
+                line-height: 33px;
+              }
+            }
+
+
           }
 
           .section_tickets__buy-btn {
@@ -193,24 +250,37 @@
             }
           }
         }
-      }
 
-      @media (max-width: 1024px) {
-        .section_tickets__calculation {
-          width: 100%;
-          //justify-content: center;
-          justify-content: space-evenly;
+        @media (max-width: 1130px) {
+          .section_tickets__amount {
+            align-items: flex-start;
+            padding: 0 0 0 80px;
+          }
         }
+
       }
     }
 
-    @media (max-width: 1024px) {
+/*     @media (max-width: 1024px) {
       .section_tickets__row {
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
         align-items: center
       }
-    }
+    } */
+
+  }
+}
+
+@media (max-width: 1024px) {
+  .section_tickets {
+    padding: $standard-padding-1024;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_tickets {
+    padding: $standard-padding-768;
   }
 }
