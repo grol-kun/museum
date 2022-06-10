@@ -29,7 +29,7 @@
     .section_explore__p {
       @extend %regular-22;
       padding-bottom: 1.563rem;
-      line-height: 175%;
+      line-height: 175% !important; //line-height: 38px;
       max-width: 660px;
 
       & span {
@@ -42,12 +42,13 @@
         max-width: 100%;
       }
     }
+
     @media (max-width: 768px) {
       .section_explore__p {
         display: none;
       }
     }
-    
+
 
   }
 

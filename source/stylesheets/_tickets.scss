@@ -23,7 +23,7 @@
       flex-direction: row;
       align-items: flex-start;
       flex-wrap: nowrap;
-      justify-content: space-around;
+      justify-content: space-between;
       width: 100%;
       height: 100%;
 
@@ -48,8 +48,8 @@
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        justify-content: space-around;
-        flex: 1 1 49%;
+        justify-content: space-between;
+        flex: 0 1 45%;
 
         .section_tickets__ticket-type {
           display: flex;
@@ -96,7 +96,7 @@
           align-items: flex-end;
           justify-content: space-between;
           min-height: 25rem;
-          padding: 0 0.625rem 0 0;
+          //padding: 0 0.625rem 0 0;
 
           .section_tickets__h3 {
             @extend %regular-28;
