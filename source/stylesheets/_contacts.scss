@@ -83,11 +83,17 @@
       }
     }
 
+    @media (max-width: 1273px) {
+      .section_contacts__map {
+        padding: 0;
+      }
+    }
     @media (max-width: 768px) {
       .section_contacts__map {
         flex: 0 0 100%;
         max-width: 703px;
       }
     }
+
   }
 }
