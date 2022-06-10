@@ -6,12 +6,23 @@
   width: 100%;
 
   &__container {
+
+    .section_tickets__wrapper-title {
+      width: calc(100% - 30px);
+      padding-left: 15px;
+    }
+
     .section_tickets__title {
       @extend %section-title;
       position: relative;
       //padding-left: 1.25rem;
       padding-bottom: 6.438rem;
       width: 100%;
+
+
+      /*       width: calc(100% - 30px);
+      padding-left:  15px;
+      padding-right: 15px; */
 
       &::after {
         @include tmp-underline(5rem, 100%, 0.188rem);
@@ -24,8 +35,10 @@
       align-items: flex-start;
       flex-wrap: nowrap;
       justify-content: space-between;
-      width: 100%;
-      height: 100%;
+      /*       width: 100%;
+      height: 100%; */
+      width: calc(100% - 30px);
+      padding: 0 15px;
 
       .section_tickets__img {
         max-height: 34.375rem;
@@ -85,7 +98,7 @@
 
         @media (max-width: 1024px) {
           .section_tickets__ticket-type {
-            flex: 0 1 30%; 
+            flex: 0 1 30%;
           }
         }
 
