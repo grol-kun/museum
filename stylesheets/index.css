@@ -1476,6 +1476,7 @@ ul {
 @media (max-width: 1420px) {
   .section_explore__container .section_explore__text-block {
     width: 100%;
+    padding: 0 20px;
   }
 }
 
