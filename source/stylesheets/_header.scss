@@ -30,12 +30,13 @@
 
     .header__logo {
       @extend %tmp_logo;
+      padding-left: 20px !important;
     }
 
     .header__menu-burger {
       display: none;
-      margin: 0 6.25rem 0 0;
       padding: 10px;
+      padding: 0 20px 0 0;
 
       &:hover {
         cursor: pointer;

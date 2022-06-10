@@ -7,7 +7,7 @@ ul {
   list-style: none;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -20,14 +20,14 @@ ul {
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -35,12 +35,12 @@ ul {
   font-weight: 400;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   font-size: 2rem;
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   text-transform: uppercase;
 }
 
@@ -58,7 +58,7 @@ ul {
 @media (max-width: 1024px) {
   .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
     font-size: 50px;
-    line-height: 180%;
+    line-height: 150%;
     letter-spacing: 5px;
   }
 }
@@ -84,7 +84,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -98,7 +98,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 1.25rem;
+  padding: 0 20px;
 }
 
 .header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
@@ -227,10 +227,14 @@ ul {
       flex-wrap: wrap;
 }
 
+.header .header__container .header__logo {
+  padding-left: 20px !important;
+}
+
 .header .header__container .header__menu-burger {
   display: none;
-  margin: 0 6.25rem 0 0;
   padding: 10px;
+  padding: 0 20px 0 0;
 }
 
 .header .header__container .header__menu-burger:hover {
@@ -319,7 +323,7 @@ ul {
   }
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -332,14 +336,14 @@ ul {
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -347,12 +351,12 @@ ul {
   font-weight: 400;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   font-size: 2rem;
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   text-transform: uppercase;
 }
 
@@ -370,7 +374,7 @@ ul {
 @media (max-width: 1024px) {
   .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
     font-size: 50px;
-    line-height: 180%;
+    line-height: 150%;
     letter-spacing: 5px;
   }
 }
@@ -396,7 +400,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -410,7 +414,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 1.25rem;
+  padding: 0 20px;
 }
 
 .header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
@@ -782,7 +786,7 @@ ul {
   }
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -795,14 +799,14 @@ ul {
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -810,12 +814,12 @@ ul {
   font-weight: 400;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   font-size: 2rem;
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   text-transform: uppercase;
 }
 
@@ -833,7 +837,7 @@ ul {
 @media (max-width: 1024px) {
   .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
     font-size: 50px;
-    line-height: 180%;
+    line-height: 150%;
     letter-spacing: 5px;
   }
 }
@@ -859,7 +863,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -873,7 +877,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 1.25rem;
+  padding: 0 20px;
 }
 
 .header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
@@ -973,8 +977,8 @@ ul {
 }
 
 .section-visiting__container .section-visiting__title-box {
-  padding-bottom: 6.438rem;
-  padding-left: 1.25rem;
+  width: calc(100% - 40px);
+  padding: 0 20px 6.438rem 20px;
 }
 
 .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title {
@@ -990,6 +994,12 @@ ul {
   width: 100%;
   height: 0.188rem;
   background-color: #710707;
+}
+
+@media (max-width: 1024px) {
+  .section-visiting__container .section-visiting__title-box {
+    padding-bottom: 83px;
+  }
 }
 
 .section-visiting__container .section-visiting__card-box {
@@ -1008,6 +1018,11 @@ ul {
   gap: 4.813rem 3.75rem;
 }
 
+.section-visiting__container .section-visiting__card-box .section-visiting__card {
+  padding: 0 15px;
+  margin: 0 -15px;
+}
+
 .section-visiting__container .section-visiting__card-box .section-visiting__card a {
   display: block;
 }
@@ -1017,17 +1032,24 @@ ul {
   height: 17.813rem;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt {
+@media (max-width: 1024px) {
+  .section-visiting__container .section-visiting__card-box .section-visiting__card a img {
+    width: 330px;
+    height: 215px;
+  }
+}
+
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt {
   position: relative;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   color: black;
   padding-top: 1.563rem;
   padding-bottom: 1.313rem;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3::after {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3::after {
   content: "";
   position: absolute;
   bottom: 5.1rem;
@@ -1037,9 +1059,38 @@ ul {
   background-color: #710707;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p {
+@media (max-width: 1024px) {
+  .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
+    letter-spacing: 3px !important;
+  }
+}
+
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p {
   color: black;
   padding-bottom: 0.625rem;
+}
+
+@media (max-width: 1024px) {
+  .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt {
+    max-width: 330px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section-visiting__container .section-visiting__card-box {
+    -webkit-column-gap: 108px;
+            column-gap: 108px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .section-visiting__container .section-visiting__card-box {
+    -webkit-column-gap: 56px;
+            column-gap: 56px;
+  }
 }
 
 /* @media (max-width: 1024px) {
@@ -1047,7 +1098,7 @@ ul {
     gap: 3.813rem 2.75rem;
   }
 } */
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -1060,14 +1111,14 @@ ul {
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -1075,12 +1126,12 @@ ul {
   font-weight: 400;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   font-size: 2rem;
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   text-transform: uppercase;
 }
 
@@ -1098,7 +1149,7 @@ ul {
 @media (max-width: 1024px) {
   .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
     font-size: 50px;
-    line-height: 180%;
+    line-height: 150%;
     letter-spacing: 5px;
   }
 }
@@ -1124,7 +1175,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -1138,7 +1189,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 1.25rem;
+  padding: 0 20px;
 }
 
 .header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
@@ -1233,7 +1284,7 @@ ul {
   background: #ffffff;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -1246,14 +1297,14 @@ ul {
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -1261,12 +1312,12 @@ ul {
   font-weight: 400;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   font-size: 2rem;
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   text-transform: uppercase;
 }
 
@@ -1284,7 +1335,7 @@ ul {
 @media (max-width: 1024px) {
   .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
     font-size: 50px;
-    line-height: 180%;
+    line-height: 150%;
     letter-spacing: 5px;
   }
 }
@@ -1310,7 +1361,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -1324,7 +1375,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 1.25rem;
+  padding: 0 20px;
 }
 
 .header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
@@ -1490,7 +1541,7 @@ ul {
   height: 100%;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -1503,14 +1554,14 @@ ul {
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -1518,12 +1569,12 @@ ul {
   font-weight: 400;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   font-size: 2rem;
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   text-transform: uppercase;
 }
 
@@ -1541,7 +1592,7 @@ ul {
 @media (max-width: 1024px) {
   .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
     font-size: 50px;
-    line-height: 180%;
+    line-height: 150%;
     letter-spacing: 5px;
   }
 }
@@ -1567,7 +1618,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -1581,7 +1632,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 1.25rem;
+  padding: 0 20px;
 }
 
 .header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
@@ -1685,8 +1736,8 @@ ul {
 }
 
 .section_video .section_video__video-block .section_video__video {
-  width: calc(100% - 30px);
-  padding: 0 15px;
+  width: calc(100% - 40px);
+  padding: 0 20px;
 }
 
 @media (max-width: 1024px) {
@@ -1712,8 +1763,8 @@ ul {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: calc(100% - 30px);
-  padding: 0 15px;
+  width: calc(100% - 40px);
+  padding: 0 20px;
 }
 
 .section_video .section_video__text-block .section_video__title {
@@ -1740,7 +1791,7 @@ ul {
   }
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -1753,14 +1804,14 @@ ul {
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -1768,12 +1819,12 @@ ul {
   font-weight: 400;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   font-size: 2rem;
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   text-transform: uppercase;
 }
 
@@ -1791,7 +1842,7 @@ ul {
 @media (max-width: 1024px) {
   .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
     font-size: 50px;
-    line-height: 180%;
+    line-height: 150%;
     letter-spacing: 5px;
   }
 }
@@ -1817,7 +1868,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -1831,7 +1882,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 1.25rem;
+  padding: 0 20px;
 }
 
 .header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
@@ -2201,7 +2252,7 @@ ul {
   }
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -2214,14 +2265,14 @@ ul {
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -2229,12 +2280,12 @@ ul {
   font-weight: 400;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   font-size: 2rem;
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   text-transform: uppercase;
 }
 
@@ -2252,7 +2303,7 @@ ul {
 @media (max-width: 1024px) {
   .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
     font-size: 50px;
-    line-height: 180%;
+    line-height: 150%;
     letter-spacing: 5px;
   }
 }
@@ -2278,7 +2329,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -2292,7 +2343,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 1.25rem;
+  padding: 0 20px;
 }
 
 .header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {
@@ -2500,7 +2551,7 @@ ul {
   }
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
+.section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box h3, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__btn {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -2513,14 +2564,14 @@ ul {
   font-weight: 300;
 }
 
-.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
+.section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__radio-group .section_tickets__container, .header .header__container .header__navigation, .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__button, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p, .section_explore__container .section_explore__text-block .section_explore__p, .section_video .section_video__text-block .section_video__text, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p, .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number, .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__data .section_contacts__text, .footer .footer__container .footer__column-2 {
   font-size: 1.375rem;
   font-weight: 100;
   line-height: 1.625rem;
   font-style: normal;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3, .header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child {
   font-family: "Forum", cursive;
   font-size: 1.75rem;
   font-style: normal;
@@ -2528,12 +2579,12 @@ ul {
   font-weight: 400;
 }
 
-.section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   font-size: 2rem;
   letter-spacing: 0.313rem;
 }
 
-.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3 {
+.header .header__container .header__logo :last-child, .footer .footer__container .footer__column-1 .footer__logo :last-child, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3 {
   text-transform: uppercase;
 }
 
@@ -2551,7 +2602,7 @@ ul {
 @media (max-width: 1024px) {
   .section-welcome__background-box .section-welcome__container .section-welcome__text .section-welcome__title, .section-visiting__container .section-visiting__title-box .section-visiting__underlined-title, .section_explore__container .section_explore__text-block .section_explore__title, .section_video .section_video__text-block .section_video__title, .section_tickets__container .section_tickets__title, .section_contacts__container .section_contacts__title-box .section_contacts__title {
     font-size: 50px;
-    line-height: 180%;
+    line-height: 150%;
     letter-spacing: 5px;
   }
 }
@@ -2577,7 +2628,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -2591,7 +2642,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 1.25rem;
+  padding: 0 20px;
 }
 
 .header .header__container .header__logo :hover, .footer .footer__container .footer__column-1 .footer__logo :hover {

@@ -29,7 +29,6 @@
       }
     }
 
-
     .section-welcome__container {
       position: relative;
       width: 100%;
@@ -133,7 +132,7 @@
         .section-welcome__p {
           @extend %regular-28;
           line-height: 2.063rem;
-          margin-top: 1.625rem;
+          margin-top: 1.625rem; //26px
           margin-bottom: 4.75rem;
         }
 
