@@ -5,9 +5,11 @@
 }
 
 .section_contacts__container {
+
   .section_contacts__title-box {
     padding-bottom: 6.438rem;
-    //padding-left: 1.25rem;
+    width: calc(100% - 30px);
+    padding: 0 15px 6.438rem 15px;
 
     .section_contacts__title {
       width: 100%;
@@ -25,6 +27,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: calc(100% - 30px);
+    padding: 0 15px;
     //padding: 0 1.25rem;
 
     .section_contacts__address {
@@ -89,9 +93,10 @@
       }
     }
 
-    @media (max-width: 1273px) {
+    @media (max-width: 1300px) {
       .section_contacts__map {
-        padding: 0;
+        flex: 1 1;
+        padding: 0 0 0 15px;
       }
     }
 

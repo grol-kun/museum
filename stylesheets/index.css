@@ -2393,6 +2393,8 @@ ul {
 
 .section_contacts__container .section_contacts__title-box {
   padding-bottom: 6.438rem;
+  width: calc(100% - 30px);
+  padding: 0 15px 6.438rem 15px;
 }
 
 .section_contacts__container .section_contacts__title-box .section_contacts__title {
@@ -2420,6 +2422,8 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: calc(100% - 30px);
+  padding: 0 15px;
 }
 
 .section_contacts__container .section_contacts__row .section_contacts__address .section_contacts__h3-box {
@@ -2478,9 +2482,12 @@ ul {
   height: 100%;
 }
 
-@media (max-width: 1273px) {
+@media (max-width: 1300px) {
   .section_contacts__container .section_contacts__row .section_contacts__map {
-    padding: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1;
+            flex: 1 1;
+    padding: 0 0 0 15px;
   }
 }
 
