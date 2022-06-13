@@ -1683,13 +1683,19 @@ ul {
   bottom: 4.4rem;
   left: 0;
   width: 100%;
-  height: 0.188rem;
+  height: 3px;
   background-color: #710707;
 }
 
 @media (max-width: 1024px) {
   .section_explore__container .section_explore__text-block .section_explore__title {
     padding-bottom: 83px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section_explore__container .section_explore__text-block .section_explore__title {
+    padding-bottom: 63px;
   }
 }
 
@@ -1736,7 +1742,12 @@ ul {
   max-height: 700px;
 }
 
-.section_explore__container .section_explore__picture img {
+.section_explore__container .section_explore__picture .section_explore__img-wrapper {
+  width: calc(100% - 40px);
+  padding: 0 20px;
+}
+
+.section_explore__container .section_explore__picture .section_explore__img-wrapper img {
   width: 100%;
   height: 100%;
 }
