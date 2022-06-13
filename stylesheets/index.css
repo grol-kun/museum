@@ -2238,17 +2238,6 @@ ul {
   width: 100%;
 }
 
-.section_tickets__container {
-  /*     @media (max-width: 1024px) {
-      .section_tickets__row {
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        align-items: center
-      }
-    } */
-}
-
 .section_tickets__container .section_tickets__wrapper-title {
   width: calc(100% - 40px);
   padding: 0 20px;
@@ -2273,6 +2262,12 @@ ul {
 @media (max-width: 1280px) {
   .section_tickets__container .section_tickets__title {
     padding-bottom: 83px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_tickets__container .section_tickets__title {
+    padding-bottom: 63px;
   }
 }
 
@@ -2317,16 +2312,49 @@ ul {
   }
 }
 
+@media (max-width: 768px) {
+  .section_tickets__container .section_tickets__row .section_tickets__img img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 609px) {
+  .section_tickets__container .section_tickets__row .section_tickets__img img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
 @media (max-width: 1280px) {
   .section_tickets__container .section_tickets__row .section_tickets__img {
-    max-height: 440px;
-    max-width: 700px;
+    /*           max-height: 440px;
+          max-width: 700px; */
+    width: 100%;
+    padding: 0;
   }
 }
 
 @media (max-width: 768px) {
   .section_tickets__container .section_tickets__row .section_tickets__img {
-    padding-bottom: 10%;
+    max-width: 444px;
+    max-height: 340px;
+  }
+}
+
+@media (max-width: 609px) {
+  .section_tickets__container .section_tickets__row .section_tickets__img {
+    max-height: 160px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -2392,6 +2420,7 @@ ul {
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__ticket-type .section_tickets__h3 {
+  font-size: 28px !important;
   font-weight: 700 !important;
 }
 
@@ -2419,12 +2448,25 @@ ul {
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3 {
+  font-size: 28px !important;
   font-weight: 700 !important;
+  line-height: 33px !important;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 768px) {
   .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3 {
-    line-height: 33px !important;
+    padding-bottom: 39px;
+  }
+}
+
+@media (max-width: 420px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__h3 {
+    font-size: 16px !important;
+    line-height: 19px !important;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding-bottom: 20px;
   }
 }
 
@@ -2433,13 +2475,23 @@ ul {
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p {
+  font-size: 22px !important;
   font-weight: 100;
-  padding: 0 0 0.875rem 0;
+  padding: 0 0 15px 0;
 }
 
 @media (max-width: 1280px) {
   .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p {
-    padding-bottom: 8px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__p {
+    padding-bottom: 15px;
+    font-weight: 300 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
   }
 }
 
@@ -2470,6 +2522,7 @@ ul {
 }
 
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box .section_tickets__number .section_tickets__input-number {
+  font-size: 22px !important;
   border-width: 0;
   color: #ffffff;
   background-color: #030303;
@@ -2493,6 +2546,18 @@ ul {
 @media (max-width: 1280px) {
   .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box {
     padding-top: 29px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box {
+    padding: 0 0 25px 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__number-box {
+    padding: 0 0 20px 0;
   }
 }
 
@@ -2527,6 +2592,33 @@ ul {
   }
 }
 
+@media (max-width: 768px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total .section_tickets__name {
+    padding: 15px 0 40px 0;
+    font-size: 28px !important;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 1.65px;
+    padding-right: 10px;
+  }
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total .section_tickets__value {
+    padding: 15px 0 40px 0;
+    font-size: 28px !important;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 1.65px;
+  }
+}
+
+@media (max-width: 420px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total .section_tickets__name {
+    padding-top: 20px;
+  }
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__total .section_tickets__value {
+    padding-top: 20px;
+  }
+}
+
 .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn {
   font-weight: 400;
   width: 10.938rem;
@@ -2549,12 +2641,62 @@ ul {
   background-color: #9D8665;
 }
 
+@media (max-width: 768px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn {
+    width: 175px;
+    height: 50px;
+    font-size: 22px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount .section_tickets__buy-btn {
+    font-weight: 300 !important;
+    font-size: 16px !important;
+    letter-spacing: 2px !important;
+  }
+}
+
 @media (max-width: 1280px) {
   .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
     padding: 0 0 0 80px;
+  }
+}
+
+@media (max-width: 866px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount {
+    padding: 0 0 0 60px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 1090px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+@media (max-width: 609px) {
+  .section_tickets__container .section_tickets__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 

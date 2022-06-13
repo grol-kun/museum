@@ -29,6 +29,12 @@
       }
     }
 
+    @media (max-width: 768px) {
+      .section_tickets__title {
+        padding-bottom: 63px;
+      }
+    }
+
 
     .section_tickets__row {
       display: flex;
@@ -57,18 +63,46 @@
             object-fit: cover;
           }
         }
+
+        @media (max-width: 768px) {
+          img {
+            width: 100%;
+          }
+        }
+
+        @media (max-width: 609px) {
+          img {
+            height: 100%;
+            width: 100%;
+          }
+        }
+
       }
 
       @media (max-width: 1280px) {
         .section_tickets__img {
-          max-height: 440px;
-          max-width: 700px;
+          /*           max-height: 440px;
+          max-width: 700px; */
+          width: 100%;
+          padding: 0;
         }
       }
 
       @media (max-width: 768px) {
         .section_tickets__img {
-          padding-bottom: 10%;
+          max-width: 444px;
+          max-height: 340px;
+        }
+      }
+
+      @media (max-width: 609px) {
+        .section_tickets__img {
+          max-height: 160px;
+          margin-bottom: 40px;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
       }
 
@@ -108,6 +142,7 @@
 
           .section_tickets__h3 {
             @extend %regular-28;
+            font-size: 28px !important;
             font-weight: 700 !important;
           }
 
@@ -129,12 +164,23 @@
 
           .section_tickets__h3 {
             @extend %regular-28;
+            font-size: 28px !important;
             font-weight: 700 !important;
+            line-height: 33px !important;
           }
 
-          @media (max-width: 1280px) {
+          @media (max-width: 768px) {
             .section_tickets__h3 {
-              line-height: 33px !important;
+              padding-bottom: 39px;
+            }
+          }
+
+          @media (max-width: 420px) {
+            .section_tickets__h3 {
+              font-size: 16px !important;
+              line-height: 19px !important;
+              align-self: center;
+              padding-bottom: 20px;
             }
           }
 
@@ -143,16 +189,26 @@
 
             .section_tickets__p {
               @extend %regular-22;
+              font-size: 22px !important;
               font-weight: 100;
-              padding: 0 0 0.875rem 0;
+              padding: 0 0 15px 0;
             }
 
             @media (max-width: 1280px) {
               .section_tickets__p {
-                padding-bottom: 8px;
+                padding-bottom: 10px;
               }
             }
-            
+
+            @media (max-width: 420px) {
+              .section_tickets__p {
+                padding-bottom: 15px;
+                font-weight: 300 !important;
+                font-size: 16px !important;
+                line-height: 19px !important;
+              }
+            }
+
 
             .section_tickets__number {
               border: 1px solid $color-white;
@@ -177,6 +233,7 @@
 
               .section_tickets__input-number {
                 @extend %regular-22;
+                font-size: 22px !important;
                 border-width: 0;
                 color: $color-white;
                 background-color: $color-bg-dark;
@@ -205,6 +262,18 @@
             }
           }
 
+          @media (max-width: 768px) {
+            .section_tickets__number-box {
+              padding: 0 0 25px 0;
+            }
+          }
+
+          @media (max-width: 420px) {
+            .section_tickets__number-box {
+              padding: 0 0 20px 0;
+            }
+          }
+
           .section_tickets__total {
             @extend %regular-28;
             font-weight: 700;
@@ -223,6 +292,7 @@
                 font-weight: 700;
                 line-height: 33px;
               }
+
               .section_tickets__value {
                 padding: 25px 0 69px 0;
                 font-weight: 700;
@@ -230,7 +300,34 @@
               }
             }
 
+            @media (max-width: 768px) {
+              .section_tickets__name {
+                padding: 15px 0 40px 0;
+                font-size: 28px !important;
+                font-weight: 700;
+                line-height: 33px;
+                letter-spacing: 1.65px;
+                padding-right: 10px;
+              }
 
+              .section_tickets__value {
+                padding: 15px 0 40px 0;
+                font-size: 28px !important;
+                font-weight: 700;
+                line-height: 33px;
+                letter-spacing: 1.65px;
+              }
+            }
+
+            @media (max-width: 420px) {
+              .section_tickets__name {
+                padding-top: 20px;
+              }
+
+              .section_tickets__value {
+                padding-top: 20px;
+              }
+            }
           }
 
           .section_tickets__buy-btn {
@@ -249,6 +346,22 @@
               background-color: $color-font-gold;
             }
           }
+
+          @media (max-width: 768px) {
+            .section_tickets__buy-btn {
+              width: 175px;
+              height: 50px;
+              font-size: 22px !important;
+            }
+          }
+
+          @media (max-width: 420px) {
+            .section_tickets__buy-btn {
+              font-weight: 300 !important;
+              font-size: 16px !important;
+              letter-spacing: 2px !important;
+            }
+          }
         }
 
         @media (max-width: 1280px) {
@@ -258,17 +371,34 @@
           }
         }
 
+        @media (max-width: 866px) {
+          .section_tickets__amount {
+            padding: 0 0 0 60px;
+          }
+        }
+
       }
+
+      @media (max-width: 1280px) {
+        .section_tickets__calculation {
+          justify-content: center;
+        }
+      }
+
+      @media (max-width: 1090px) {
+        .section_tickets__calculation {
+          justify-content: flex-start;
+        }
+      }
+
     }
 
-/*     @media (max-width: 1024px) {
+    @media (max-width: 609px) {
       .section_tickets__row {
         flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        align-items: center
+        align-items: center;
       }
-    } */
+    }
 
   }
 }
