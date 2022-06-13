@@ -1,20 +1,5 @@
 @import 'mixin';
 
-/*@media (max-width: 1024px) {
-      root {
-      }
-    }
-
-     @media (max-width: 768px) {
-      :root {
-      }
-    }
-
-    @media (max-width: 768px) {
-      :root {
-      }
-    } */
-
 .header {
   //border: 1px solid red;
   @extend %dark-section;

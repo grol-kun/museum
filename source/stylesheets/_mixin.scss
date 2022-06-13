@@ -91,7 +91,6 @@
   }
 }
 
-
 @mixin tmp-underline($bottom, $width, $height) {
   content: "";
   position: absolute;
@@ -124,6 +123,7 @@
 
   :last-child {
     @extend %forum-28;
+    font-size: 28px;
     @extend %uppercase;
     margin-left: 1.313rem;
     line-height: 3.125rem;
