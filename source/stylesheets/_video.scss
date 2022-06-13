@@ -20,6 +20,12 @@
     }
   }
 
+  @media (max-width: 1024px) {
+    .section_video__video-block {
+      padding-bottom: 20px;
+    }
+  }
+
   .section_video__text-block {
     display: flex;
     justify-content: space-between;

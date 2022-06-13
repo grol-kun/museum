@@ -1976,6 +1976,12 @@ ul {
   }
 }
 
+@media (max-width: 1024px) {
+  .section_video .section_video__video-block {
+    padding-bottom: 20px;
+  }
+}
+
 .section_video .section_video__text-block {
   display: -webkit-box;
   display: -ms-flexbox;
