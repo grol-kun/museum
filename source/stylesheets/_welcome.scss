@@ -187,11 +187,6 @@
 
       .section-welcome__text.text-active {
         &.open {
-          //padding-left: 150%;
-          //margin-left: 100%;
-          //transition: 0.5s;
-          //display: none;
-
           animation-name: text, invisible;
           animation-duration: 0.5s, 0.1s;
           animation-timing-function: ease;
@@ -199,10 +194,6 @@
           animation-direction: normal;
           animation-delay: 0.1s, 0.5s;
           animation-fill-mode: forwards;
-
-          /*          animation-name: invisible;
-          animation-delay: 0.5s;
-          animation-fill-mode: forwards; */
         }
       }
     }

@@ -66,19 +66,5 @@ export class Drawer {
     menuBtn.classList.toggle('open');
     const welcomeText = document.querySelector('.section-welcome__text.text-active');
     welcomeText.classList.toggle('open');
-
-/*     window.onresize = function () {
-      let computedStyle = getComputedStyle(menuBtn);
-      console.log(computedStyle.display);
-
-      if (computedStyle.display == 'none') {
-        welcomeText.classList.remove('open');
-      }
-      if (computedStyle.display == 'block') {
-        if (!welcomeText.classList.contains('open')) {
-          welcomeText.classList.add('open');
-        }
-      }
-    }; */
   }
 }

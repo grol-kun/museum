@@ -377,6 +377,12 @@
           }
         }
 
+        @media (max-width: 609px) {
+          .section_tickets__amount {
+            padding: 0;
+          }
+        }
+
       }
 
       @media (max-width: 1280px) {

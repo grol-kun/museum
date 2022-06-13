@@ -286,6 +286,35 @@ ul {
   padding: 0;
 }
 
+.header .header__container .header__wrapper .header__menu-burger.open ul {
+  position: relative;
+}
+
+.header .header__container .header__wrapper .header__menu-burger.open ul > :last-child {
+  position: absolute;
+  width: 32px;
+  height: 2px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 1px;
+  left: -1px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header .header__container .header__wrapper .header__menu-burger.open ul > :first-child {
+  width: 32px;
+  height: 2px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header .header__container .header__wrapper .header__menu-burger.open ul > :nth-child(2) {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   .header .header__container .header__wrapper .header__menu-burger {
     display: block;
@@ -765,9 +794,6 @@ ul {
           animation-delay: 0.1s, 0.5s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  /*          animation-name: invisible;
-          animation-delay: 0.5s;
-          animation-fill-mode: forwards; */
 }
 
 @media (max-width: 1024px) {
@@ -2678,6 +2704,12 @@ ul {
 @media (max-width: 866px) {
   .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount {
     padding: 0 0 0 60px;
+  }
+}
+
+@media (max-width: 609px) {
+  .section_tickets__container .section_tickets__row .section_tickets__calculation .section_tickets__amount {
+    padding: 0;
   }
 }
 
