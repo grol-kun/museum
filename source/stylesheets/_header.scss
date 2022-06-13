@@ -1,107 +1,130 @@
 @import 'mixin';
 
 .header {
-  //border: 1px solid red;
   @extend %dark-section;
   width: 100%;
 
   .header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 150px; //12.5rem;
-    width: 100%;
-    flex-wrap: wrap;
 
-    .header__logo {
-      @extend %tmp_logo;
-      padding-left: 20px !important;
-    }
+    .header__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 150px; //12.5rem;
+      flex-wrap: wrap;
+      width: calc(100% - 40px);
+      padding: 0 20px;
 
-    .header__menu-burger {
-      display: none;
-      padding: 10px;
-      padding: 0 20px 0 0;
 
-      &:hover {
-        cursor: pointer;
-        filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
-        transition: 1s;
+      .header__logo {
+        @extend %tmp_logo;
+        padding-left: 20px !important;
       }
 
-      ul {
-        display: flex;
-        flex-direction: column;
+      @media (max-width: 420px) {
+        .header__logo {
+          padding: 0 !important;
+        }
+      }
+
+      .header__logo-text {
+        letter-spacing: 5px !important;
+      }
+
+      @media (max-width: 420px) {
+        .header__logo-text {
+          padding: 0 !important;
+          font-size: 16px !important;
+          line-height: 18px !important;
+          letter-spacing: 5px !important;
+          margin-left: 50px !important;
+        }
+      }
+
+      .header__menu-burger {
+        display: none;
+        padding: 0;
+
+        &:hover {
+          cursor: pointer;
+          filter: invert(60%) sepia(30%) saturate(386%) hue-rotate(356deg) brightness(84%) contrast(87%);
+          transition: 1s;
+        }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+
+          li {
+            background: url(/assets/img/menu_Rectangle21.png) no-repeat;
+            background-position: 0 0;
+
+            width: 32px;
+            height: 2px;
+            padding: 0 0 6px 0;
+          }
+
+          :last-child {
+            padding: 0;
+          }
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .header__menu-burger {
+          display: block;
+        }
+      }
+
+      .header__navigation {
+        @extend %regular-22;
+        max-width: 720px;
+        width: 100%;
+
+        ul {
+          line-height: 3.125rem;
+          margin: 0;
+          display: flex;
+          justify-content: space-between;
+        }
 
         li {
-          background: url(/assets/img/menu_Rectangle21.png) no-repeat;
-          background-position: 0 0;
-
-          width: 32px;
-          height: 2px;
-          padding: 0 0 6px 0;
+          display: inline-block;
         }
 
-        :last-child {
-          padding: 0;
+        a {
+          display: block;
+          padding: 6px 12px;
+          text-decoration: none;
+          @extend %interactive;
+        }
+      }
+
+
+      @media (max-width: 1024px) {
+        .header__navigation {
+          display: none;
         }
       }
     }
 
     @media (max-width: 1024px) {
-      .header__menu-burger {
-        display: block;
+      .header__wrapper {
+        height: 130px;
       }
     }
 
-    .header__navigation {
-      @extend %regular-22;
-      max-width: 720px;
-      width: 100%;
-
-      ul {
-        line-height: 3.125rem;
-        margin: 0;
-        //padding: 0 10% 0 0;
-        display: flex;
-        justify-content: space-between;
-      }
-
-      li {
-        display: inline-block;
-      }
-
-      a {
-        display: block;
-        padding: 6px 12px;
-        text-decoration: none;
-        @extend %interactive;
+    @media (max-width: 768px) {
+      .header__wrapper {
+        height: 110px;
       }
     }
 
-
-    @media (max-width: 1024px) {
-      .header__navigation {
-        display: none;
+    @media (max-width: 420px) {
+      .header__wrapper {
+        height: 90px;
       }
     }
-  }
 
-  @media (max-width: 1024px) {
-    .header__container {
-      height: 130px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .header__container {
-      height: 110px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .header__container {
-      height: 90px;
-    }
   }
 }
