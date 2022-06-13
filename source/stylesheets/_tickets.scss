@@ -19,7 +19,7 @@
       width: 100%;
 
       &::after {
-        @include tmp-underline(5rem, 100%, 0.188rem);
+        @include tmp-underline(5rem, 100%, 3px);
       }
     }
 

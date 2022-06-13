@@ -13,6 +13,13 @@
 @media (max-width: 768px) {
   .section_contacts {
     padding: $standard-padding-768;
+    padding-bottom: 67px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .section_contacts {
+    padding-bottom: 40px !important;
   }
 }
 
@@ -30,7 +37,7 @@
       position: relative;
 
       &::after {
-        @include tmp-underline(-1.563rem, 100%, 0.188rem);
+        @include tmp-underline(-1.563rem, 100%, 3px);
       }
     }
   }
@@ -68,11 +75,15 @@
 
         @media (max-width: 768px) {
           h3 {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 23px;
+            font-size: 20px !important;
+            line-height: 23px !important;
+          }
+        }
+
+        @media (max-width: 420px) {
+          h3 {
+            font-size: 16px !important;
+            line-height: 19px !important;
           }
         }
       }
@@ -98,6 +109,25 @@
           @media (max-width: 1024px) {
             p {
               padding-bottom: 15px;
+            }
+          }
+
+          @media (max-width: 768px) {
+            p {
+              font-weight: 300 !important;
+              font-size: 18px !important;
+              line-height: 21px !important;
+
+              &:last-of-type {
+                padding-bottom: 40px;
+              }
+            }
+          }
+
+          @media (max-width: 420px) {
+            p {
+              font-size: 16px !important;
+              line-height: 19px !important;
             }
           }
 
@@ -153,7 +183,8 @@
     @media (max-width: 768px) {
       .section_contacts__map {
         flex: 0 0 100%;
-        max-width: 703px;
+        max-width: fit-content;
+        padding: 0;
       }
     }
 
