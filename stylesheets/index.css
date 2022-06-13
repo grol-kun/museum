@@ -83,7 +83,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation li a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -418,7 +418,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation li a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -636,25 +636,34 @@ ul {
 }
 
 .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation li {
-  padding: 0 0 0 3.438rem;
-  display: inline-block;
-}
-
-.section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a {
-  display: inline-block;
-  padding: 0;
+  padding: 0 0 0 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 115px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 25px;
 }
 
-.section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:last-child:after {
-  content: "";
-  position: relative;
-  left: 20.63%;
-  right: 20.63%;
+.section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation li a {
   display: inline-block;
-  width: 8px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 90%;
+          flex: 1 1 90%;
+  padding: 0;
+}
+
+.section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation li .section-welcome__arrow {
+  width: 7px;
   height: 12px;
-  background-image: url(/assets/svg/vector_for_menu.svg);
+  background: url(/assets/svg/vector_for_menu.svg) no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
 }
 
 @media (max-width: 1024px) {
@@ -894,7 +903,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation li a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -1321,7 +1330,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation li a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -1520,7 +1529,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation li a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -1828,7 +1837,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation li a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -2110,7 +2119,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation li a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -2788,7 +2797,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation li a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
@@ -3182,7 +3191,7 @@ ul {
   color: #ffffff;
 }
 
-.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
+.header .header__container .header__wrapper .header__navigation a:hover, .section-welcome__background-box .section-welcome__container .section-welcome__menu-bar .section-welcome__navigation li a:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt h3:hover, .section-visiting__container .section-visiting__card-box .section-visiting__card a .section-visiting__card-txt p:hover, .footer .footer__container .footer__wrapper .footer__column-2 ul .footer__li-block a:hover {
   cursor: pointer;
   color: #9D8665;
   -webkit-transition: 1s;
