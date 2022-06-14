@@ -1,4 +1,4 @@
-@import 'mixin';
+@import "mixin";
 
 .section-welcome {
   padding: 0;
@@ -6,7 +6,7 @@
   width: 100%;
 
   &__background-box {
-    max-width: 1920px; //1920px 120rem
+    max-width: 1920px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +15,7 @@
     .section-welcome__background {
       background-image: url("/assets/img/background.jpg");
       background-position: calc(100%), calc(100%);
-      width: calc(1215/750*100%);
+      width: calc(1215 / 750 * 100%);
       height: calc(64vw);
       background-repeat: no-repeat;
       background-size: contain;
@@ -80,12 +80,10 @@
           li {
             padding: 0 0 0 55px; //55px
             display: flex;
-            //width: 70%;
             width: 115px;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 25px;
-
 
             a {
               display: inline-block;
@@ -115,7 +113,6 @@
             margin-top: 0;
           }
         }
-
       }
 
       .section-welcome__text {
@@ -202,7 +199,7 @@
       .section-welcome__container {
         background-image: url("/assets/img/background.jpg");
         background-position: calc(100%), calc(100%);
-        width: calc(1215/750*100%);
+        width: calc(1215 / 750 * 100%);
         height: calc(64vw);
         background-repeat: no-repeat;
         background-size: cover;
@@ -219,13 +216,10 @@
   }
 
   50% {
-    //opacity: 50%;
-
   }
 
   100% {
     left: 500px;
-    //opacity: 0;
   }
 }
 
@@ -234,7 +228,8 @@
     opacity: 1;
   }
 
-  50% {}
+  50% {
+  }
 
   100% {
     opacity: 0;

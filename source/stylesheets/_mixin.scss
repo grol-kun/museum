@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 //------------FONTS--------
 
@@ -30,7 +30,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   font-weight: 400;
-
 }
 
 %forum-32 {
@@ -73,7 +72,6 @@
   %section-title {
     font-size: 28px;
     line-height: 143%;
-    /* or 143% */
   }
 }
 
@@ -103,7 +101,6 @@
 %tmp_logo {
   display: flex;
   align-items: center;
-  //padding-left: 1.25rem;
   padding: 0 20px;
 
   :hover {
@@ -122,13 +119,10 @@
 
   @media (max-width: 420px) {
     &:first-child {
-      //background-image: url("/assets/svg/logo.svg");
-      background: url("/assets/svg/logo.svg") 50% /contain no-repeat;
+      background: url("/assets/svg/logo.svg") 50% / contain no-repeat;
       width: 29px;
       height: 16px;
       position: relative;
-      //top: -10px;
-      //background-repeat: no-repeat;
     }
 
     &:last-child {
@@ -184,12 +178,12 @@
   }
 
   /* On mouse-over, add a grey background color */
-  .section_tickets__container:hover input~.section_tickets__checkmark {
+  .section_tickets__container:hover input ~ .section_tickets__checkmark {
     background-color: rgb(134, 130, 130);
   }
 
   /* When the radio button is checked, add a blue background */
-  .section_tickets__container input:checked~.section_tickets__checkmark {
+  .section_tickets__container input:checked ~ .section_tickets__checkmark {
     background-color: $color-bg-dark;
     border: 2px solid $color-white;
   }
@@ -202,7 +196,7 @@
   }
 
   /* Show the indicator (dot/circle) when checked */
-  .section_tickets__container input:checked~.section_tickets__checkmark:after {
+  .section_tickets__container input:checked ~ .section_tickets__checkmark:after {
     display: block;
   }
 

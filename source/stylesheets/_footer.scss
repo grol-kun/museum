@@ -1,4 +1,4 @@
-@import 'mixin';
+@import "mixin";
 
 .footer {
   @extend %dark-section;
@@ -7,10 +7,8 @@
   padding-bottom: 50px;
 
   .footer__container {
-
     .footer__wrapper {
       display: flex;
-      //flex-wrap: wrap;
       width: calc(100% - 40px);
       padding: 0 20px;
 
@@ -86,10 +84,8 @@
         ul {
           line-height: 3.125rem;
           margin: 0;
-          //padding: 0 1.25rem 0 0;
           list-style: none;
           display: flex;
-          //justify-content: space-between;
 
           .footer__li-block {
             max-height: 150px;
@@ -154,7 +150,6 @@
                 }
               }
             }
-
           }
         }
 
@@ -195,7 +190,7 @@
 
       @media (max-width: 787px) {
         .footer__column-2 {
-          flex: 1 1 50%
+          flex: 1 1 50%;
         }
       }
 
@@ -216,7 +211,6 @@
           padding-bottom: 10px;
         }
       }
-
 
       .footer__column-3 {
         flex: 1 1 50%;
@@ -263,7 +257,6 @@
           .pinterest {
             background: url(/assets/svg/social/Vector_6.svg) 50% 50% no-repeat;
           }
-
         }
 
         @media (max-width: 420px) {
@@ -286,7 +279,6 @@
           margin-left: 0;
         }
       }
-
     }
 
     @media (max-width: 1024px) {
@@ -306,7 +298,5 @@
         justify-content: center;
       }
     }
-
   }
-
 }

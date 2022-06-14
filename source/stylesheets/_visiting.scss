@@ -1,4 +1,4 @@
-@import 'mixin';
+@import "mixin";
 
 .section_visiting {
   padding: $standard-padding;
@@ -17,11 +17,9 @@
 }
 
 .section-visiting__container {
-
   .section-visiting__title-box {
     width: calc(100% - 40px);
     padding: 0 20px 6.438rem 20px;
-
 
     .section-visiting__underlined-title {
       @extend %section-title;
@@ -67,14 +65,14 @@
           padding: 0 0 25px 0;
         }
 
-        @media (max-width:1024px) {
+        @media (max-width: 1024px) {
           img {
             width: 330px;
             height: 215px;
           }
         }
 
-        @media (max-width:768px) {
+        @media (max-width: 768px) {
           img {
             width: 280px;
             height: 180px;
@@ -95,38 +93,37 @@
               @include tmp-underline(68px, 300px, 2px);
             }
 
-            @media (max-width:1024px) {
+            @media (max-width: 1024px) {
               &::after {
                 @include tmp-underline(68px, 150px, 2px);
               }
             }
 
-            @media (max-width:768px) {
+            @media (max-width: 768px) {
               &::after {
                 @include tmp-underline(55px, 150px, 2px);
               }
             }
           }
 
-          @media (max-width:1024px) {
+          @media (max-width: 1024px) {
             h3 {
               letter-spacing: 3px !important;
             }
           }
 
-          @media (max-width:768px) {
+          @media (max-width: 768px) {
             h3 {
               font-size: 22px !important;
             }
           }
 
-          @media (max-width:420px ) {
+          @media (max-width: 420px) {
             h3 {
               font-size: 18px !important;
               letter-spacing: 5px !important;
             }
           }
-
 
           p {
             color: black;
@@ -140,7 +137,7 @@
             }
           }
 
-          @media (max-width:1024px) {
+          @media (max-width: 1024px) {
             p {
               font-size: 20px !important;
               line-height: 23px !important;
@@ -152,14 +149,14 @@
             }
           }
 
-          @media (max-width:768px) {
+          @media (max-width: 768px) {
             p {
               font-size: 18px !important;
               line-height: 21px !important;
             }
           }
 
-          @media (max-width:420px) {
+          @media (max-width: 420px) {
             p {
               font-size: 16px !important;
               line-height: 19px !important;
@@ -167,7 +164,7 @@
           }
         }
 
-        @media (max-width:1024px) {
+        @media (max-width: 1024px) {
           .section-visiting__card-txt {
             max-width: 330px;
           }
@@ -200,5 +197,4 @@
       flex-direction: column;
     }
   }
-
 }

@@ -1,4 +1,4 @@
-@import 'mixin';
+@import "mixin";
 
 .section_contacts {
   padding: $standard-padding;
@@ -24,7 +24,6 @@
 }
 
 .section_contacts__container {
-
   .section_contacts__title-box {
     padding-bottom: 6.438rem;
     width: calc(100% - 40px);
@@ -60,7 +59,6 @@
     justify-content: space-between;
     width: calc(100% - 40px);
     padding: 0 20px;
-    //padding: 0 1.25rem;
 
     .section_contacts__address {
       .section_contacts__h3-box {
@@ -157,7 +155,6 @@
     .section_contacts__map {
       max-width: 60rem;
       max-height: 38.75rem;
-      //padding: 0 0.625rem 0 0;
 
       img {
         width: 100%;
@@ -187,6 +184,5 @@
         padding: 0;
       }
     }
-
   }
 }

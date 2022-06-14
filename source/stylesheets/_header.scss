@@ -1,11 +1,10 @@
-@import 'mixin';
+@import "mixin";
 
 .header {
   @extend %dark-section;
   width: 100%;
 
   .header__container {
-
     .header__wrapper {
       display: flex;
       justify-content: space-between;
@@ -14,7 +13,6 @@
       flex-wrap: wrap;
       width: calc(100% - 40px);
       padding: 0 20px;
-
 
       .header__logo {
         @extend %tmp_logo;
@@ -74,7 +72,7 @@
             position: relative;
           }
 
-          ul> :last-child {
+          ul > :last-child {
             position: absolute;
             width: 32px;
             height: 2px;
@@ -84,14 +82,14 @@
             transition: 1s;
           }
 
-          ul> :first-child {
+          ul > :first-child {
             width: 32px;
             height: 2px;
             transform: rotate(-45deg);
             transition: 1s;
           }
 
-          ul>:nth-child(2) {
+          ul > :nth-child(2) {
             display: none;
           }
         }
@@ -127,7 +125,6 @@
         }
       }
 
-
       @media (max-width: 1024px) {
         .header__navigation {
           display: none;
@@ -152,6 +149,5 @@
         height: 90px;
       }
     }
-
   }
 }
