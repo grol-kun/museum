@@ -4,13 +4,13 @@
   padding: $standard-padding;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: $view-1024) {
   .section_visiting {
     padding: $standard-padding-1024;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: $view-768) {
   .section_visiting {
     padding: $standard-padding-768;
   }
@@ -32,13 +32,13 @@
     }
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: $view-1024) {
     .section-visiting__title-box {
       padding-bottom: 83px;
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: $view-768) {
     .section-visiting__title-box {
       padding-bottom: 63px;
     }
@@ -67,14 +67,14 @@
           padding: 0 0 25px 0;
         }
 
-        @media (max-width: 1024px) {
+        @media (max-width: $view-1024) {
           img {
             width: 330px;
             height: 215px;
           }
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: $view-768) {
           img {
             width: 280px;
             height: 180px;
@@ -95,32 +95,32 @@
               @include tmp-underline(68px, 300px, 2px);
             }
 
-            @media (max-width: 1024px) {
+            @media (max-width: $view-1024) {
               &::after {
                 @include tmp-underline(68px, 150px, 2px);
               }
             }
 
-            @media (max-width: 768px) {
+            @media (max-width: $view-768) {
               &::after {
                 @include tmp-underline(55px, 150px, 2px);
               }
             }
           }
 
-          @media (max-width: 1024px) {
+          @media (max-width: $view-1024) {
             h3 {
               letter-spacing: 3px !important;
             }
           }
 
-          @media (max-width: 768px) {
+          @media (max-width: $view-768) {
             h3 {
               font-size: 22px !important;
             }
           }
 
-          @media (max-width: 420px) {
+          @media (max-width: $view-420) {
             h3 {
               font-size: 18px !important;
               letter-spacing: 5px !important;
@@ -139,7 +139,7 @@
             }
           }
 
-          @media (max-width: 1024px) {
+          @media (max-width: $view-1024) {
             p {
               font-size: 20px !important;
               line-height: 23px !important;
@@ -151,14 +151,14 @@
             }
           }
 
-          @media (max-width: 768px) {
+          @media (max-width: $view-768) {
             p {
               font-size: 18px !important;
               line-height: 21px !important;
             }
           }
 
-          @media (max-width: 420px) {
+          @media (max-width: $view-420) {
             p {
               font-size: 16px !important;
               line-height: 19px !important;
@@ -166,7 +166,7 @@
           }
         }
 
-        @media (max-width: 1024px) {
+        @media (max-width: $view-1024) {
           .section-visiting__card-txt {
             max-width: 330px;
           }
@@ -175,7 +175,7 @@
     }
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: $view-1024) {
     .section-visiting__card-box {
       column-gap: 108px;
       justify-content: center;
@@ -188,7 +188,7 @@
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: $view-768) {
     .section-visiting__card-box {
       row-gap: 40px;
     }

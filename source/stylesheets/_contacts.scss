@@ -4,20 +4,20 @@
   padding: $standard-padding;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: $view-1024) {
   .section_contacts {
     padding: $standard-padding-1024;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: $view-768) {
   .section_contacts {
     padding: $standard-padding-768;
     padding-bottom: 67px !important;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: $view-420) {
   .section_contacts {
     padding-bottom: 40px !important;
   }
@@ -41,13 +41,13 @@
     }
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: $view-1024) {
     .section_contacts__title-box {
       padding-bottom: 83px;
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: $view-768) {
     .section_contacts__title-box {
       padding-bottom: 63px;
     }
@@ -71,14 +71,14 @@
           line-height: 33px !important;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: $view-768) {
           h3 {
             font-size: 20px !important;
             line-height: 23px !important;
           }
         }
 
-        @media (max-width: 420px) {
+        @media (max-width: $view-420) {
           h3 {
             font-size: 16px !important;
             line-height: 19px !important;
@@ -86,13 +86,13 @@
         }
       }
 
-      @media (max-width: 1024px) {
+      @media (max-width: $view-1024) {
         .section_contacts__h3-box {
           padding-bottom: 35px;
         }
       }
 
-      @media (max-width: 768px) {
+      @media (max-width: $view-768) {
         .section_contacts__h3-box {
           padding-bottom: 40px;
         }
@@ -104,13 +104,13 @@
             padding-bottom: 1.563rem; //25px
           }
 
-          @media (max-width: 1024px) {
+          @media (max-width: $view-1024) {
             p {
               padding-bottom: 15px;
             }
           }
 
-          @media (max-width: 768px) {
+          @media (max-width: $view-768) {
             p {
               font-weight: 300 !important;
               font-size: 18px !important;
@@ -122,7 +122,7 @@
             }
           }
 
-          @media (max-width: 420px) {
+          @media (max-width: $view-420) {
             p {
               font-size: 16px !important;
               line-height: 19px !important;
@@ -146,7 +146,7 @@
       }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: $view-1024) {
       .section_contacts__address {
         padding-bottom: 1%;
       }
@@ -169,7 +169,7 @@
       }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: $view-1024) {
       .section_contacts__map {
         max-width: 694px;
         max-height: 454px;
@@ -177,7 +177,7 @@
       }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: $view-768) {
       .section_contacts__map {
         flex: 0 0 100%;
         max-width: fit-content;

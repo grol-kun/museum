@@ -16,19 +16,19 @@ html {
   height: 100%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: $view-1024) {
   html {
     font-size: 14px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: $view-768) {
   html {
     font-size: 12px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: $view-768) {
   html {
     font-size: 10px;
   }

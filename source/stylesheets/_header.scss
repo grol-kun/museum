@@ -18,7 +18,7 @@
         @extend %tmp_logo;
       }
 
-      @media (max-width: 420px) {
+      @media (max-width: $view-420) {
         .header__logo {
           padding: 0 !important;
         }
@@ -28,7 +28,7 @@
         letter-spacing: 5px !important;
       }
 
-      @media (max-width: 420px) {
+      @media (max-width: $view-420) {
         .header__logo-text {
           padding: 0 !important;
           font-size: 16px !important;
@@ -94,7 +94,7 @@
         }
       }
 
-      @media (max-width: 1024px) {
+      @media (max-width: $view-1024) {
         .header__menu-burger {
           display: block;
         }
@@ -123,26 +123,26 @@
         }
       }
 
-      @media (max-width: 1024px) {
+      @media (max-width: $view-1024) {
         .header__navigation {
           display: none;
         }
       }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: $view-1024) {
       .header__wrapper {
         height: 130px;
       }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: $view-768) {
       .header__wrapper {
         height: 110px;
       }
     }
 
-    @media (max-width: 420px) {
+    @media (max-width: $view-420) {
       .header__wrapper {
         height: 90px;
       }

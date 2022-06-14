@@ -28,7 +28,7 @@
       }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: $view-768) {
       .section_tickets__title {
         padding-bottom: 63px;
       }
@@ -59,7 +59,7 @@
           }
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: $view-768) {
           img {
             width: 100%;
           }
@@ -80,7 +80,7 @@
         }
       }
 
-      @media (max-width: 768px) {
+      @media (max-width: $view-768) {
         .section_tickets__img {
           max-width: 444px;
           max-height: 340px;
@@ -126,7 +126,7 @@
             }
           }
 
-          @media (max-width: 1024px) {
+          @media (max-width: $view-1024) {
             .section_tickets__radio-group {
               max-width: 30rem;
             }
@@ -159,13 +159,13 @@
             line-height: 33px !important;
           }
 
-          @media (max-width: 768px) {
+          @media (max-width: $view-768) {
             .section_tickets__h3 {
               padding-bottom: 39px;
             }
           }
 
-          @media (max-width: 420px) {
+          @media (max-width: $view-420) {
             .section_tickets__h3 {
               font-size: 16px !important;
               line-height: 19px !important;
@@ -190,7 +190,7 @@
               }
             }
 
-            @media (max-width: 420px) {
+            @media (max-width: $view-420) {
               .section_tickets__p {
                 padding-bottom: 15px;
                 font-weight: 300 !important;
@@ -251,13 +251,13 @@
             }
           }
 
-          @media (max-width: 768px) {
+          @media (max-width: $view-768) {
             .section_tickets__number-box {
               padding: 0 0 25px 0;
             }
           }
 
-          @media (max-width: 420px) {
+          @media (max-width: $view-420) {
             .section_tickets__number-box {
               padding: 0 0 20px 0;
             }
@@ -289,7 +289,7 @@
               }
             }
 
-            @media (max-width: 768px) {
+            @media (max-width: $view-768) {
               .section_tickets__name {
                 padding: 15px 0 40px 0;
                 font-size: 28px !important;
@@ -308,7 +308,7 @@
               }
             }
 
-            @media (max-width: 420px) {
+            @media (max-width: $view-420) {
               .section_tickets__name {
                 padding-top: 20px;
                 font-size: 16px !important;
@@ -323,7 +323,7 @@
             }
           }
 
-          @media (max-width: 420px) {
+          @media (max-width: $view-420) {
             .section_tickets__total {
               align-self: center;
             }
@@ -346,7 +346,7 @@
             }
           }
 
-          @media (max-width: 768px) {
+          @media (max-width: $view-768) {
             .section_tickets__buy-btn {
               width: 175px;
               height: 50px;
@@ -354,7 +354,7 @@
             }
           }
 
-          @media (max-width: 420px) {
+          @media (max-width: $view-420) {
             .section_tickets__buy-btn {
               font-weight: 300 !important;
               font-size: 16px !important;
@@ -405,13 +405,13 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: $view-1024) {
   .section_tickets {
     padding: $standard-padding-1024;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: $view-768) {
   .section_tickets {
     padding: $standard-padding-768;
   }

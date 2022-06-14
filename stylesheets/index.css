@@ -1787,7 +1787,7 @@ ul {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .section_explore__container .section_explore__text-block .section_explore__title {
     padding-bottom: 63px;
   }
@@ -2102,14 +2102,6 @@ ul {
 @media (max-width: 1355px) {
   .section_video .section_video__text-block .section_video__text {
     display: none;
-  }
-}
-
-@media (max-width: 420px) {
-  .section_video .section_video__text-block {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 

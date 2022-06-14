@@ -23,7 +23,7 @@
       max-width: 1215px;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: $view-1024) {
       .section-welcome__background {
         display: none;
       }
@@ -102,13 +102,13 @@
           }
         }
 
-        @media (max-width: 1024px) {
+        @media (max-width: $view-1024) {
           .section-welcome__navigation {
             display: block;
           }
         }
 
-        @media (max-width: 420px) {
+        @media (max-width: $view-420) {
           .section-welcome__navigation {
             margin-top: 0;
           }
@@ -155,14 +155,14 @@
           }
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: $view-768) {
           .section-welcome__button {
             display: none;
           }
         }
       }
 
-      @media (max-width: 768px) {
+      @media (max-width: $view-768) {
         .section-welcome__text {
           display: flex;
           position: relative;
@@ -176,7 +176,7 @@
         display: block;
       }
 
-      @media (max-width: 1024px) {
+      @media (max-width: $view-1024) {
         .section-welcome__text.text-static {
           display: none;
         }
@@ -222,7 +222,7 @@
         }
       }
 
-      @media (max-width: 768px) {
+      @media (max-width: $view-768) {
         .section-welcome__text.text-active {
           &.open {
             animation-name: text, invisible;
@@ -237,7 +237,7 @@
       }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: $view-1024) {
       .section-welcome__container {
         background-image: url("/assets/img/background.jpg");
         background-position: calc(100%), calc(100%);

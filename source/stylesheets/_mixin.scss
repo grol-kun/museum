@@ -53,7 +53,7 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: $view-1024) {
   %section-title {
     font-size: 50px;
     line-height: 150%;
@@ -61,14 +61,14 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: $view-768) {
   %section-title {
     font-size: 40px;
     line-height: 150%;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: $view-420) {
   %section-title {
     font-size: 28px;
     line-height: 143%;
@@ -116,7 +116,7 @@
     top: -4px;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: $view-420) {
     &:first-child {
       background: url("/assets/svg/logo.svg") 50% / contain no-repeat;
       width: 29px;
