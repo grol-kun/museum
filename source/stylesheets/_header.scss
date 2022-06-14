@@ -16,7 +16,6 @@
 
       .header__logo {
         @extend %tmp_logo;
-        padding-left: 20px !important;
       }
 
       @media (max-width: 420px) {
@@ -119,7 +118,6 @@
 
         a {
           display: block;
-          padding: 6px 12px;
           text-decoration: none;
           @extend %interactive;
         }

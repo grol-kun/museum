@@ -46,8 +46,7 @@
       .section_tickets__img {
         max-height: 34.375rem;
         max-width: 45rem;
-        width: calc(100% - 40px);
-        padding: 0 20px;
+        padding: 0 20px 0 0;
 
         img {
           width: 100%;
@@ -312,11 +311,21 @@
             @media (max-width: 420px) {
               .section_tickets__name {
                 padding-top: 20px;
+                font-size: 16px !important;
+                line-height: 19px !important;
               }
 
               .section_tickets__value {
                 padding-top: 20px;
+                font-size: 16px !important;
+                line-height: 19px !important;
               }
+            }
+          }
+
+          @media (max-width: 420px) {
+            .section_tickets__total {
+              align-self: center;
             }
           }
 

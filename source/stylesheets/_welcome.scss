@@ -118,7 +118,7 @@
       .section-welcome__text {
         position: absolute;
         padding-top: 10%;
-        padding-left: 1.25rem;
+        padding-left: 20px; //1.25rem
         z-index: 0;
         display: block;
         transition: 0.5s;
@@ -185,11 +185,11 @@
       .section-welcome__text.text-active {
         &.open {
           animation-name: text, invisible;
-          animation-duration: 0.5s, 0.1s;
+          animation-duration: 0.5s, 0.5s;
           animation-timing-function: ease;
           animation-iteration-count: 1;
           animation-direction: normal;
-          animation-delay: 0.1s, 0.5s;
+          animation-delay: 0.1s, 0.25s;
           animation-fill-mode: forwards;
         }
       }
