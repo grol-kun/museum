@@ -806,7 +806,7 @@ ul {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 920px) {
   .section-welcome__background-box .section-welcome__container .section-welcome__text.text-active.open {
     -webkit-animation-name: invisible;
             animation-name: invisible;

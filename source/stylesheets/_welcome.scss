@@ -208,7 +208,7 @@
         }
       }
 
-      @media (max-width: 900px) {
+      @media (max-width: 920px) {
         .section-welcome__text.text-active {
           &.open {
             animation-name: invisible;
@@ -235,7 +235,6 @@
           }
         }
       }
-
     }
 
     @media (max-width: 1024px) {
